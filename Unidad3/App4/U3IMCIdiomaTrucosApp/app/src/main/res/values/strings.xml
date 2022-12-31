@@ -1,0 +1,35 @@
+<resources>
+    <!-- leyendas main -->
+    <string name="app_name">U3IMCIdiomasApp</string>
+    <string name="titulo_app">Indice de Masa Corporal</string>
+    <string name="imc_es">Su IMC es:</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="condicion_es">Su condición de salud es:</string>
+    <string name="delgadez_severa">Delgadez severa</string>
+    <string name="delgadez_muy_severa">Delgadez muy severa</string>
+    <string name="delgadez">Delgadez</string>
+    <string name="peso_saludable">Peso Saludable</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidad_moderada">Obesidad moderada</string>
+    <string name="obesidad_severa">Obesidad severa</string>
+    <string name="obesidad_muy_severa">Obesidad muy severa (obesidad mórvida)</string>
+    <string name="error">Dato incorrecto</string>
+    <string name="nullEstatura">Ingresa una estatura</string>
+    <string name="nullPeso">Ingresa un peso</string>
+    <string name="pesoenKg">Peso (Kg):</string>
+    <string name="estaturaenM">Estatura (m):</string>
+    <string name="calcularIMC">Calcular IMC</string>
+    <string name="acercaDe">Acerca De ..</string>
+    <!-- leyendas en acerda de_layout -->
+    <string name="tecnm">TECNOLOGICO NACIONAL DE MEXICO</string>
+    <string name="campus">CAMPUS LA LAGUNA</string>
+    <string name="carrera">Ingenieria en Sistemas Computacionales</string>
+    <string name="materia">Desarrollo en Android</string>
+    <string name="semestre">Semestre: Ago-Dic 2022</string>
+    <string name="grupo">Grupo: A (8-9 AM)</string>
+    <string name="alumno">Alumno:</string>
+    <string name="nombreCreador">Roberto Esquivel Troncoso 19130519</string>
+    <string name="inicio">Inicio</string>
+    <string name="derechosReservados">"©Todos los derechos "</string>
+
+</resources>

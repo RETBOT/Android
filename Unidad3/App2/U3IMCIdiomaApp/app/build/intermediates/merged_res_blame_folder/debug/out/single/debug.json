@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/layout_acercade_layout.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/layout/acercade_layout.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/drawable_cr7.jpg.flat",
+        "source": "u3imcidiomaapp-main-31:/drawable/cr7.jpg"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/drawable_imc.png.flat",
+        "source": "u3imcidiomaapp-main-31:/drawable/imc.png"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/layout_main_layout.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/layout/main_layout.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/drawable_tecnm.jpg.flat",
+        "source": "u3imcidiomaapp-main-31:/drawable/tecnm.jpg"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/layout_splash_layout.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/layout/splash_layout.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/drawable_itl.png.flat",
+        "source": "u3imcidiomaapp-main-31:/drawable/itl.png"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "u3imcidiomaapp-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "u3imcidiomaapp-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "u3imcidiomaapp-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    }
+]

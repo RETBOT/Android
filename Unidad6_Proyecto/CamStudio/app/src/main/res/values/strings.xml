@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CamStudio</string>
+    <string name="carpeta">CARPETA</string>
+    <string name="tomar_fotos">Tomar fotos</string>
+</resources>

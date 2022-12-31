@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">U3GridViewEjemploApp</string>
+    <!-- Leyendas en acercade_layout.xml -->
+    <string name="tecnm">TECNOLOGICO NACIONAL DE MEXICO</string>
+    <string name="campus">CAMPUS LA LAGUNA</string>
+    <string name="carrera">Ingenieria en Sistemas Computacionales</string>
+    <string name="materia">Desarrollo en Android</string>
+    <string name='semestre'>Semestre ago-dic 2022</string>
+    <string name="grupo">Grupo "A" 8:00 - 9:00</string>
+    <string name="alumno"> Alumno </string>
+    <string name="nombre_alumno">Roberto Esquivel Troncoso 19130519</string>
+    <string name="derechos">(C) Copyright 2022. Torreon, Coahuila.Mexico 2022</string>
+</resources>

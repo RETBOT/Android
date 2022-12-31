@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.itl.c85360673.u9widgetsapp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.U9WidgetsApp">
+        <activity
+            android:name=".actividades.AutoCompleteTextViewActivity"
+            android:exported="true"
+            android:label="AutoComplete Text View" />
+        <activity
+            android:name=".actividades.ProgressBarHorizActivity"
+            android:exported="true"
+            android:label="Progress Bar Horiz" />
+        <activity
+            android:name=".actividades.ImageButtonActivity"
+            android:exported="true"
+            android:label="Image Button" />
+        <activity
+            android:name=".actividades.ImageViewActivity"
+            android:exported="true"
+            android:label="Image View" />
+        <activity
+            android:name=".actividades.SearchViewActivity"
+            android:exported="true"
+            android:label="Search View" />
+        <activity
+            android:name=".actividades.DatePickerActivity"
+            android:exported="true"
+            android:label="Date Picker" />
+        <activity
+            android:name=".actividades.TimerPickerActivity"
+            android:exported="true"
+            android:label="Timer Picker" />
+        <activity
+            android:name=".actividades.SeekBarDiscreteActivity"
+            android:exported="true"
+            android:label="SeekBar Discrete" />
+        <activity
+            android:name=".actividades.RatingBarActivity"
+            android:exported="true"
+            android:label="Rating Bar" />
+        <activity
+            android:name=".actividades.SeekBarActivity"
+            android:exported="true"
+            android:label="SeekBar" />
+        <activity
+            android:name=".actividades.MultilineText"
+            android:exported="true"
+            android:label="Multiline Text" />
+        <activity
+            android:name=".actividades.WebViewActivity"
+            android:exported="true"
+            android:label="Web View" />
+        <activity
+            android:name=".actividades.CalendarViewActivity"
+            android:exported="true"
+            android:label="Calendar View"/>
+        <activity
+            android:name=".actividades.RadioButtonActivity"
+            android:exported="true"
+            android:label="Radio Button" />
+        <activity
+            android:name=".actividades.ToggleButtonActivity"
+            android:exported="true"
+            android:label="Toggle Button" />
+        <activity
+            android:name=".actividades.FloatingActionButtonWidget"
+            android:exported="true" />
+        <activity
+            android:name=".actividades.SwitchActivity"
+            android:exported="true"
+            android:label="Switch" />
+        <activity
+            android:name=".actividades.MultiAutoCompleteTextViewActivity"
+            android:exported="true"
+            android:label="MultiAuto Complete Text View" />
+        <activity
+            android:name=".actividades.ChipActivity"
+            android:exported="true"
+            android:label="Chip Activity" />
+        <activity
+            android:name=".actividades.CheckedTextViewActivity"
+            android:exported="true"
+            android:label="Checked Text View" />
+
+        <activity
+            android:name=".actividades.MainActivity"
+            android:exported="true"
+            android:label="Widgets">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".actividades.TextInputEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".actividades.CheckBoxActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

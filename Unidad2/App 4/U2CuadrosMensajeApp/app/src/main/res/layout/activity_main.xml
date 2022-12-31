@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRaiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#750707"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F8F8"
+        android:backgroundTint="#9704B1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="Toast, Snackbar, Alert"
+                android:textColor="#EDF3EF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnToastCortaClick"
+                android:text="TOAST DURACION CORTA" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnToastLargoClick"
+                android:text="TOAST DURACION LARGA" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnSnackbarClick"
+                android:text="Snackbar" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAlertSimpleClick"
+                android:text="Alert simple" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAlertConBtnOk"
+                android:text="Alert con boton OK" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAlertConBtnOkYCancelClick"
+                android:text="Alert con botones OK y Cancel" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAlertConListaOpcionesClick"
+                android:text="Alert con Lista de Opciones" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnConOpcionesSeleccionUnicaClick"
+                android:text="Aalert con opciones seleccion unica" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAlertConOpcionesSeleccionMultipleClick"
+                android:text="Alert con opciones seleccion multiple" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAlertConLayoutIncrustadoClick"
+                android:text="Alert con Layout incrustado" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnAcercaDeClick"
+                android:text="Acerca De ..." />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

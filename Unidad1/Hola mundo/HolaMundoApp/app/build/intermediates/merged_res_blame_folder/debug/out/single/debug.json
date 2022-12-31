@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/drawable_ic_launcher_background.xml.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "itl.c19130519.holamundoapp-pngs-16:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/layout_activity_main.xml.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/layout/activity_main.xml"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/xml_backup_rules.xml.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/xml_data_extraction_rules.xml.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "itl.c19130519.holamundoapp-merged_res-21:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "itl.c19130519.holamundoapp-main-23:/mipmap-hdpi/ic_launcher_round.webp"
+    }
+]

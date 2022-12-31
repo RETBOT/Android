@@ -1,0 +1,36 @@
+<resources>
+    <!-- Leyendas en Main Activity -->
+    <string name="app_name">U3ImcArgumentosApp</string>
+    <string name="titulo_app">Indice de Masa Corporal</string>
+    <string name="imc_es">Su imc es: </string>
+    <string name="aceptar">Aceptar</string>
+    <string name="condicion_es">Su condicion de salud es: </string>
+    <string name="delgadez_muy_severa">Delgadez muy severa</string>
+    <string name="delgadez_severa">Delgadez severa</string>
+    <string name="delgadez">Delgadez</string>
+    <string name="saludable_es">Peso saludable</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidad_moderada">Obesidad moderada</string>
+    <string name="obesidad_severa">Obesidad severa</string>
+    <string name="obesidad_muy_severa">Obesidad muy severa</string>
+    <!-- Leyendas en main_layout.xml -->
+    <string name="peso">Peso (KG)</string>
+    <string name="estatura">Estatura (m)</string>
+    <string name='btn_calcular'>Calcular IMC</string>
+    <string name="btn_acerca_de">Acerca de ...</string>
+
+    <!-- Leyendas en acercade_layout.xml -->
+    <string name="tecnm">TECNOLOGICO NACIONAL DE MEXICO</string>
+    <string name="campus">CAMPUS LA LAGUNA</string>
+    <string name="carrera">Ingenieria en Sistemas</string>
+    <string name="materia">Desarrollo en Android</string>
+    <string name="computacionales">Computacionales</string>
+    <string name='semestre'>Semestre ago-dic 2022</string>
+    <string name="grupo">Grupo "A" 8:00 - 9:00</string>
+    <string name="alumno"> Alumno </string>
+    <string name="nombre_alumno">Roberto Esquivel Troncoso 19130519</string>
+    <string name="derechos">(C) Copyright 2022. Torreon, Coahuila.Mexico 2022</string>
+
+    <string name="ingrese_un_valor">Ingrese un valor</string>
+    <string name="cancelar">Cancelar</string>
+</resources>

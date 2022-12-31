@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">U3IMCIdiomasApp</string>
+    <string name="titulo_app">Body Mass Index</string>
+    <string name="imc_es">Your BMI is:</string>
+    <string name="aceptar">Ok</string>
+    <string name="condicion_es">Your heath condition is:</string>
+    <string name="delgadez_severa">Severe thiness</string>
+    <string name="delgadez_muy_severa">Very severe thinness</string>
+    <string name="delgadez">Thiness</string>
+    <string name="peso_saludable">Healthy weight</string>
+    <string name="sobrepeso">Over weight</string>
+    <string name="obesidad_moderada">Moderate obesity</string>
+    <string name="obesidad_severa">Severe obesity</string>
+    <string name="obesidad_muy_severa">Very severe obesity</string>
+    <string name="pesoenKg">Weigh (kg):</string>
+    <string name="estaturaenM">Height (m):</string>
+    <string name="calcularIMC">Calculate BMI</string>
+    <string name="acercaDe">About...</string>
+    <string name="tecnm">NATIONAL TECHNOLOGICAL OF MEXICO</string>
+    <string name="campus">CAMPUS THE LAKE</string>
+    <string name="carrera">Computer Systems Engineering</string>
+    <string name="materia">Android Developer</string>
+    <string name="semestre">Period: Fail 2022</string>
+    <string name="grupo">Group: A (08-09 AM)</string>
+    <string name="derechosReservados">©Copytight 2022 Torreón, Coah. México</string>
+    <string name="nombreCreador">Roberto Esquivel Troncoso 19130519</string>
+    <string name="error">mistake</string>
+    <string name="nullEstatura">null Height</string>
+    <string name="nullPeso">null Weiht</string>
+    <string name="inicio">menu</string>
+    <string name="alumno">Student:</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">U3ImcIdiomaApp</string>
+    <string name="titulo_app">Body Mass Index</string>
+    <string name="imc_es">Your BMI is:</string>
+    <string name="aceptar">OK</string>
+    <string name="condicion_es">Your health condition is:</string>
+    <string name="delgadez_muy_severa">Very severe thinness</string>
+    <string name="delgadez_severa">Severe thinness</string>
+    <string name="delgadez">Thinness</string>
+    <string name="saludable_es">Healthy weight</string>
+    <string name="sobrepeso">Overweight</string>
+    <string name="obesidad_moderada">Moderated Obesity</string>
+    <string name="obesidad_severa">Severe Obesity</string>
+    <string name="obesidad_muy_severa">Very severe obesity</string>
+    <string name="peso">Weigth (kg):</string>
+    <string name="estatura">Height (m):</string>
+    <string name="btn_calcular">Calculate BMI</string>
+    <string name="btn_acerca_de">About...</string>
+    <string name="tecnm">NATIONAL TECHNOLOGICAL OF MEXICO</string>
+    <string name="campus">CAMPUS THE LAKE</string>
+    <string name="computacionales">Computer</string>
+    <string name="materia">Android Development</string>
+    <string name="semestre">Period aug-dec 2022</string>
+    <string name="grupo">Group A</string>
+    <string name="alumno">Student:</string>
+    <string name="nombre_alumno">Roberto Esquivel Troncoso 19130519</string>
+    <string name="derechos">(C) Copyright 2022. Torreon, Coahuila.Mexico 2022</string>
+    <string name="carrera">Sistems Engineering</string>
+    <string name="ingrese_un_valor">Enter a value</string>
+    <string name="cancelar">Cancel</string>
+</resources>
