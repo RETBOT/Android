@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.CamStudio;
-
+//  By: RETBOT
 import androidx.activity.result.ActivityResult;
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
@@ -30,7 +30,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
+//  By: RETBOT
 public class MainActivity extends AppCompatActivity
         implements ActivityResultCallback<ActivityResult> {
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity
     // ELementos necesarios para inflar el layout de creacion de las carpetas
     private EditText edNombreCarpeta;
     private View vista_crearCarpetas;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -241,7 +241,7 @@ public class MainActivity extends AppCompatActivity
         }
         return true;
     }
-
+//  By: RETBOT
     @Override
     public void onBackPressed () {
         // Hacer nada cuando se pulse el boton ATRAS del dispositivo
@@ -259,5 +259,5 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onActivityResult(ActivityResult result) {
 
-    }
+    }//  By: RETBOT
 }
