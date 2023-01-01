@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3menusapp;
-
+//  By: RETBOT
 import android.os.Bundle;
 import android.view.ActionMode;
 import android.view.Menu;
@@ -25,7 +25,7 @@ public class MenuModoAccionContextualActivity extends AppCompatActivity
         //...
         imgvImagen.setOnLongClickListener(this);
     }
-
+//  By: RETBOT
     @Override
     public boolean onLongClick ( View v ) {
         //...
@@ -43,7 +43,7 @@ public class MenuModoAccionContextualActivity extends AppCompatActivity
     // Se define una variable que implementa la interface ActionMode.Callback
     // Esta variable fungirá como listener de la accion que se seleccione del menu contextual
     private ActionMode.Callback  mImagenActionModeListener = new ActionMode.Callback() {
-
+//  By: RETBOT
         @Override
         public boolean onCreateActionMode(ActionMode mode, Menu menu) {
             // Se infla el menu que aparecerá en modo de accion contextual para la Imagen
@@ -70,7 +70,7 @@ public class MenuModoAccionContextualActivity extends AppCompatActivity
             }
             return true;
         }
-
+//  By: RETBOT
         @Override
         public void onDestroyActionMode(ActionMode mode) {
             // Anular el objeto ActionMode
@@ -79,3 +79,4 @@ public class MenuModoAccionContextualActivity extends AppCompatActivity
         }
     } ;
 }
+//  By: RETBOT
