@@ -24,7 +24,7 @@ package mx.edu.itl.c19130519.u3imcapp;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         edtPeso = findViewById(R.id.edtPeso);
         edtEstatura = findViewById(R.id.edtEstatura);
     }
-
+//  By: RETBOT
     // Método usado para desplegar un mensaje en pantalla
     public void mostrarToast(String mensaje){
         Toast.makeText(this,mensaje,Toast.LENGTH_SHORT).show();
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             mostrarToast("Ingresa un Peso (Kg)");
         }
     }
-
+//  By: RETBOT
     // Método para retornar la condición del usuario
     public String determinarCondicion(float imc){
         if(imc>= 0 && imc < 15.0){
@@ -122,4 +122,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(acercade);
         finish();
     }
-}
+}//  By: RETBOT
