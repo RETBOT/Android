@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.graphics.Color;
@@ -15,7 +15,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import mx.edu.itl.c85360673.u9widgetsapp.R;
-
+//  By: RETBOT
 public class ImageButtonActivity extends AppCompatActivity {
 
     ImageButton imageButton;
@@ -39,7 +39,7 @@ public class ImageButtonActivity extends AppCompatActivity {
             }
         });
 
-    }
+    }//  By: RETBOT
 }
 
 
