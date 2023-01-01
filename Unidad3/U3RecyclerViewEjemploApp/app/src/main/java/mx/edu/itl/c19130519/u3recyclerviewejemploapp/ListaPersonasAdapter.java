@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3recyclerviewejemploapp;
-
+//  By: RETBOT
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
+//  By: RETBOT
 import java.util.ArrayList;
 
 public class ListaPersonasAdapter extends RecyclerView.Adapter<ListaPersonasAdapter.ListaPersonasViewHolder> {
@@ -29,13 +29,13 @@ public class ListaPersonasAdapter extends RecyclerView.Adapter<ListaPersonasAdap
         holder.getTxtvNombre().setText(arrlstPersonas.get(position).getNombre());
         holder.getTxtvEdad().setText(arrlstPersonas.get(position).getEdad()+"");
         holder.getTxtvSexo().setText(arrlstPersonas.get(position).getSexo());
-    }
+    }//  By: RETBOT
 
     @Override
     public int getItemCount(){//  return 0;
         return arrlstPersonas.size();
     }
-
+//  By: RETBOT
     public static class ListaPersonasViewHolder extends RecyclerView.ViewHolder{
         private TextView txtvNombre;
         private TextView txtvEdad;
@@ -59,7 +59,7 @@ public class ListaPersonasAdapter extends RecyclerView.Adapter<ListaPersonasAdap
         public TextView getTxtvSexo() {
             return txtvSexo;
         }
-    }
+    }//  By: RETBOT
 }
 
-
+//  By: RETBOT
