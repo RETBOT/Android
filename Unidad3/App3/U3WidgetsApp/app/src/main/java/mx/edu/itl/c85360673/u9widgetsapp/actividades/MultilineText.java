@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 import mx.edu.itl.c85360673.u9widgetsapp.R;
 import android.os.Bundle;
@@ -27,6 +27,6 @@ public class MultilineText extends AppCompatActivity {
                 String text=edit.getText().toString();
                 textView.append("\n"+text);
             }
-        });
+        });//  By: RETBOT
     }
 }
