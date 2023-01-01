@@ -21,7 +21,7 @@
 :*==========================================================================================
 :*
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 package mx.edu.itl.c19130519.u2banderita3lay1actapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,7 +30,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
-
+//  By: RETBOT
 public class MainActivity3 extends AppCompatActivity {
 
     @Override
@@ -49,7 +49,7 @@ public class MainActivity3 extends AppCompatActivity {
                 "19130519 Roberto Esquivel Troncoso",
                 Toast.LENGTH_SHORT
         ).show();
-    }
+    }//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     //Metodo abrir una nueva vista
     public void btnBlancoClick( View v){
@@ -64,4 +64,4 @@ public class MainActivity3 extends AppCompatActivity {
         startActivity(verde);
         finish();
     }
-}
+}//  By: RETBOT
