@@ -16,7 +16,7 @@
 :*  Ultima modif:
 :*  Fecha       Modifico             Motivo
 :*==========================================================================================
-:*
+:*//  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 
 
@@ -36,7 +36,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 public class AlmacenPublicoActivity extends AppCompatActivity {
 
     private EditText editText;
@@ -61,7 +61,7 @@ public class AlmacenPublicoActivity extends AppCompatActivity {
 
             // Asociamos un File para el archivo en la ruta anterior
             File archivo = new File(rutaArchivo, "MiArchivo.txt");
-
+//  By: RETBOT
             // Creamos, escribimos y cerramos el archivo
             try {
                 BufferedWriter br = new BufferedWriter(
@@ -86,7 +86,7 @@ public class AlmacenPublicoActivity extends AppCompatActivity {
 
             // Asociamos un File para el archivo en la ruta anterior
             File archivo = new File(rutaArchivo, "MiArchivo.txt");
-
+//  By: RETBOT
             // Abrimos, leemos y cerramos el archivo
             try {
                 BufferedReader br = new BufferedReader(
@@ -118,7 +118,7 @@ public class AlmacenPublicoActivity extends AppCompatActivity {
         String carpeta = rutaExt.getAbsolutePath() + "/DCIM";
         File rutaMiArchivo = new File ( carpeta );
         String listaArchivos []  = rutaMiArchivo.list();
-
+//  By: RETBOT
         // Mostrar la lista de archivos
         editText.append ( "Lista de archivos en: " + carpeta + "\n" );
         for ( String archivo : listaArchivos ) {
@@ -142,5 +142,5 @@ public class AlmacenPublicoActivity extends AppCompatActivity {
         return false;
     }
 
-
+//  By: RETBOT
 }
