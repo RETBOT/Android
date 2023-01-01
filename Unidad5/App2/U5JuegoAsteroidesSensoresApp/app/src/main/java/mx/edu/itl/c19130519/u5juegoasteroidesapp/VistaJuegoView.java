@@ -17,7 +17,7 @@
 :*  Ultima modif:
 :*  Fecha       Modificó             Motivo
 :*==========================================================================================
-
+//  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 
 
@@ -38,7 +38,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
-
+//  By: RETBOT
 import java.util.List;
 import java.util.Vector;
 
@@ -58,7 +58,7 @@ public class VistaJuegoView extends View implements SensorEventListener{
 
     public static final int   PASO_GIRO_NAVE        = 5;
     public static final float PASO_ACELERACION_NAVE = 0.5f;
-
+//  By: RETBOT
     // ******* MISIL  *******
     private Grafico         misil;
     private static int      PASO_VELOCIDAD_MISIL = 12;
@@ -80,7 +80,7 @@ public class VistaJuegoView extends View implements SensorEventListener{
     private Sensor sensor;
     private int x;
     private int y;
-
+//  By: RETBOT
     private int radio = 50;
     private int ancho;
     private int alto;
@@ -127,7 +127,7 @@ public class VistaJuegoView extends View implements SensorEventListener{
         // Obtenemos la insancia del acelerometro
         sensorManager = (SensorManager) context.getSystemService(Context.SENSOR_SERVICE);
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-
+//  By: RETBOT
         vistaJuegoThread = new VistaJuegoThread(this, PERIODO_PROCESO);
         vistaJuegoThread.start();
         corriendo = true;
@@ -162,7 +162,7 @@ public class VistaJuegoView extends View implements SensorEventListener{
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     @Override
     protected void onDraw ( Canvas canvas ) {
         super.onDraw(canvas);
@@ -192,7 +192,7 @@ public class VistaJuegoView extends View implements SensorEventListener{
             nave.setIncX ( nIncX );
             nave.setIncY ( nIncY );
         }
-
+//  By: RETBOT
         nave.incrementaPos();
         for ( int i = 0; i < asteroides.size(); i++ ){
             asteroides.get (i).incrementaPos();
@@ -251,7 +251,7 @@ public class VistaJuegoView extends View implements SensorEventListener{
         super.onTouchEvent(event);
         float x = event.getX ();
         float y = event.getY ();
-
+//  By: RETBOT
         switch ( event.getAction() ) {
             case MotionEvent.ACTION_DOWN :
                 disparo = true;
@@ -301,7 +301,7 @@ public class VistaJuegoView extends View implements SensorEventListener{
 
     public boolean isCorriendo() {
         return corriendo;
-    }
+    }//  By: RETBOT
 
     public void setCorriendo(boolean corriendo) {
         this.corriendo = corriendo;
@@ -338,10 +338,11 @@ public class VistaJuegoView extends View implements SensorEventListener{
 
         nave.setPosX(x);
         nave.setPosY(y);
-    }
+    }//  By: RETBOT
 
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
 }
+//  By: RETBOT
