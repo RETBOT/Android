@@ -15,7 +15,7 @@ public class RadioButtonActivity extends AppCompatActivity {
     private RadioButton _rbtnClubFutbol_1, _rbtnClubFutbol_2, _rbtnClubFutbol_3;
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +28,7 @@ public class RadioButtonActivity extends AppCompatActivity {
 
     //----------------------------------------------------------------------------------------------
     // Cuando se da clic en Enviar se determina el equipo marcada y se muestra en un SnackBar.
-
+//  By: RETBOT
     public void btnEnviarClick ( View v ) {
         String _sClubFavorito = "Ninguno";
         if ( _rbtnClubFutbol_1.isChecked() )
@@ -54,7 +54,7 @@ public class RadioButtonActivity extends AppCompatActivity {
         }
 
         Toast.makeText ( this, _sMensaje, Toast.LENGTH_LONG ).show();
-    }
+    }//  By: RETBOT
 
     //----------------------------------------------------------------------------------------------
 }
