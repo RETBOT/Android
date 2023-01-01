@@ -28,7 +28,7 @@ import android.widget.MultiAutoCompleteTextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 import mx.edu.itl.c85360673.u9widgetsapp.R;
 
 public class MultiAutoCompleteTextViewActivity extends AppCompatActivity {
@@ -55,6 +55,6 @@ public class MultiAutoCompleteTextViewActivity extends AppCompatActivity {
 
         String entrada = edtText.getText().toString();
         Toast.makeText(this, entrada, Toast.LENGTH_SHORT).show();
-
+//  By: RETBOT
     }
 }
