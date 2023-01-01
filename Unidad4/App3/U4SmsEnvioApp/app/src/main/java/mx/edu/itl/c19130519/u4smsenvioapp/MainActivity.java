@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u4smsenvioapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
+//  By: RETBOT
 public class MainActivity extends AppCompatActivity {
     private EditText edtTelefonoDesino;
     private EditText edtMensaje;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "SMS enviado",
                         Toast.LENGTH_SHORT).show();
         edtMensaje.setText("");
-
+//  By: RETBOT
     }
 
     private boolean validarDatos() {
@@ -55,4 +55,4 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
     }
-}
+}//  By: RETBOT
