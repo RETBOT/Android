@@ -20,7 +20,7 @@
 :*==========================================================================================
 :------------------------------------------------------------------------------------------*/
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import android.app.AlertDialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
@@ -42,7 +42,7 @@ public class TimerPickerActivity extends AppCompatActivity
     Button timeButton;
     int hour, minute;
     String Hora;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -71,4 +71,4 @@ public class TimerPickerActivity extends AppCompatActivity
         timePickerDialog.setTitle("Select Time");
         timePickerDialog.show();
     }
-}
+}//  By: RETBOT
