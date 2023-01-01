@@ -18,8 +18,7 @@
 :*==========================================================================================
 :*
 :*------------------------------------------------------------------------------------------*/
-
-
+//  By: RETBOT
 package mx.edu.itl.c19130519.u3imcidiomaapp;
 
 import androidx.appcompat.app.AlertDialog;
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText edtPeso;
     private EditText edtEstatura;
 
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }else{
             mostrarToast(getString(R.string.nullPeso));
-        }
+        }//  By: RETBOT
     }
 
     // Método para retornar la condición del usuario
@@ -99,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if(imc >= 16 && imc <= 18.4){
             return getString(R.string.delgadez);
-        }
+        }//  By: RETBOT
         if(imc >= 18.5 && imc <=24.9){
             return getString(R.string.peso_saludable);
         }
@@ -124,4 +123,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(acercade);
         finish();
     }
-}
+}//  By: RETBOT
