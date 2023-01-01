@@ -21,7 +21,7 @@
 :*==========================================================================================
 :*
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 package mx.edu.itl.c19130519.u2banderita1lay1actapp;
 
 import android.content.Intent;
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.LENGTH_SHORT
         ).show();
     }
-
+//  By: RETBOT
     @Override
     public void onResume() {
         super.onResume();
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.LENGTH_SHORT
         ).show();
     }
-
+//  By: RETBOT
     @Override
     public void onDestroy() {
         super.onDestroy();
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.LENGTH_SHORT
         ).show();
     }
-
+//  By: RETBOT
     // Metodo para cerrar la app
     public void btnSalirClick( View v ){
         finish();
@@ -127,5 +127,5 @@ public class MainActivity extends AppCompatActivity {
         ).show();
     }
 
-
+//  By: RETBOT
 }
