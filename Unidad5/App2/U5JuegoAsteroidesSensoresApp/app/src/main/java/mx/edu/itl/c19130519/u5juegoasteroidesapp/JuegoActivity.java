@@ -16,14 +16,14 @@
 :*  Ultima modif:
 :*  Fecha       Modificó             Motivo
 :*==========================================================================================
-
+//  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 
 
 package mx.edu.itl.c19130519.u5juegoasteroidesapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 import android.hardware.SensorManager;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -42,7 +42,7 @@ public class JuegoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.juego_layout);
         this.setVolumeControlStream(AudioManager.STREAM_MUSIC);
-
+//  By: RETBOT
         vistaJuegoView = findViewById(R.id.vistaJuegoView);
 
         mplayAudioDisparo = MediaPlayer.create(this, R.raw.audio_disparo);
@@ -62,7 +62,7 @@ public class JuegoActivity extends AppCompatActivity {
         vistaJuegoView.iniciar();
         if(mplayAudioFondo != null)
             mplayAudioFondo.start();
-    }
+    }//  By: RETBOT
 
     @Override
     protected void onPause() {
@@ -70,7 +70,7 @@ public class JuegoActivity extends AppCompatActivity {
         vistaJuegoView.detener();
         if(mplayAudioFondo != null)
             mplayAudioFondo.pause();
-    }
+    }//  By: RETBOT
 
     @Override
     protected void onDestroy() {
@@ -93,4 +93,4 @@ public class JuegoActivity extends AppCompatActivity {
 
         super.onDestroy();
     }
-}
+}//  By: RETBOT
