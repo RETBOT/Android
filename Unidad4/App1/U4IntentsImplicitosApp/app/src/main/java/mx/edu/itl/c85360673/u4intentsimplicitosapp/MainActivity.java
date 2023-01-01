@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4intentsimplicitosapp;
-
+//  By: RETBOT
 import androidx.annotation.IntegerRes;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
@@ -17,7 +17,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
-
+//  By: RETBOT
 public class MainActivity extends AppCompatActivity {
     public static final int CODIGO_SELECCIONAR_ARCHIVO  = 1944;
     public static final int CODIGO_GALERIA_FOTOS        = 1945;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     // Preparar una llamada telefonica con el numero pero sin lanzarla.
     //                                   ACTION_DIAL
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 .create()
                 .show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     // MARCAR NUMERO TELEFONICO LANZANDO LA LLAMADA:
     //                                   ACTION_CALL
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
     //                                   ACTION_VIEW
     //
     // Formato del URI:   http://<direccion-pagina>
-
+//  By: RETBOT
     public void  btnAbrirPaginaWebClick    ( View v ) {
         layout      = getLayoutInflater().inflate ( R.layout.layout_edit_text_simple, null );
         edtTexto  = layout.findViewById  ( R.id.edtTexto );
@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
                 .create()
                 .show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     // Llamar a la app de la camara
     //                                ACTION_IMAGE_CAPTURE
@@ -247,7 +247,7 @@ public class MainActivity extends AppCompatActivity {
                 .create()
                 .show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     // Abrir el Explorador de Archivos
     //                                  ACTION_GET_CONTENT
@@ -280,7 +280,7 @@ public class MainActivity extends AppCompatActivity {
                 MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(intent,CODIGO_GALERIA_FOTOS);
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     @Override
@@ -319,7 +319,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }
-    }
+    }//  By: RETBOT
 
     //----------------------------------------------------------------------------------------------
     public void btnAcercaDeClick( View v ){
@@ -328,3 +328,4 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
+//  By: RETBOT
