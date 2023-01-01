@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.util;
-
+//  By: RETBOT
 import android.app.Activity;
 import android.content.Context;
 import android.view.View;
@@ -8,7 +8,7 @@ import android.view.inputmethod.InputMethodManager;
 public class OcultarTecladoAdaptador implements View.OnClickListener {
 
     private Activity activity;
-
+//  By: RETBOT
     public OcultarTecladoAdaptador(Activity activity ) {
         this.activity = activity;
     }
@@ -25,4 +25,4 @@ public class OcultarTecladoAdaptador implements View.OnClickListener {
             );
         }
     }
-}
+}//  By: RETBOT
