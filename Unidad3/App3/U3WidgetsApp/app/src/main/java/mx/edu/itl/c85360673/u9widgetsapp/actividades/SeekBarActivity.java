@@ -27,7 +27,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.Toast;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import mx.edu.itl.c85360673.u9widgetsapp.R;
@@ -52,7 +52,7 @@ public class SeekBarActivity extends AppCompatActivity {
 
 
             }
-
+//  By: RETBOT
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
 
@@ -70,7 +70,7 @@ public class SeekBarActivity extends AppCompatActivity {
 
                 porcentaje = (SeekBar) findViewById(R.id.porcetanje);
                 porcentaje.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-
+//  By: RETBOT
                     int progressChangedValue = 0;
                     @Override
                     public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
@@ -94,10 +94,10 @@ public class SeekBarActivity extends AppCompatActivity {
 
                 });
 
-
+//  By: RETBOT
 
             }
 
-
+//  By: RETBOT
 
 }
