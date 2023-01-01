@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.CamStudio;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class SplashActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,4 +21,4 @@ public class SplashActivity extends AppCompatActivity {
             }
         }, 2000);
     }
-}
+}//  By: RETBOT
