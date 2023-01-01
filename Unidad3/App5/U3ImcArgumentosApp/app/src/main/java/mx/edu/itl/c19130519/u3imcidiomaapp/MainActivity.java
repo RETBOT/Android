@@ -19,7 +19,7 @@
 :*  07/10/22       Se cambiaron las leyendas de texto y en su lugar se introjeron unas nuevas para una mejor
 manipulacion de cadenas.
 :*==========================================================================================
-:*  07/10/2022  Isaias Gerardo Cordova Palomares
+:*  //  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 
 package mx.edu.itl.c19130519.u3imcidiomaapp;
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity
     // Constantes para usar como argumento requestCode
     public static final int CODIGO_LEER_PESO = 2022;
     public static final int CODIGO_LEER_ESTATURA = 2020;
-
+//  By: RETBOT
     private EditText edtPeso;
     private EditText edtEstatura;
     private ActivityResultLauncher<Intent> activityResultLaunch;
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity
         layoutRiz.setOnClickListener(new OcultarTecladoAdaptador(this));
         activityResultLaunch = registerForActivityResult(
                                 new ActivityResultContracts.StartActivityForResult(), this );
-    }
+    }//  By: RETBOT
     //-------------------------------------------------------------------------
     // Metodo determinar el estado usando el imc ya calculado
     public String determinarCondicion(float imc) {
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity
         }
     else
             return condicion += getString(R.string.obesidad_muy_severa);   // return "Obesidad muy severa (obesidad morbida)";
-    }
+    }//  By: RETBOT
     //--------------------------------------------------------------------------
     // Boton para calcular el imc
     public void btnCalcularImcClick( View v )
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity
                 .setCancelable(false)
         .create()
             .show();
-    }
+    }//  By: RETBOT
     //--------------------------------------------------------------------------
     // Muestra el acerca de , con toda la info del programador
     public void btnAcercaDeClick( View v)
@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity
         intent.putExtra("codigoPeticion",CODIGO_LEER_ESTATURA);
         //startActivityForResult(intent,CODIGO_LEER_ESTATURA);
         activityResultLaunch.launch(intent);
-    }
+    }//  By: RETBOT
 
     //-------------------------------------------------------------------------------
     public void btnLeerPesoClick(View v)
@@ -176,23 +176,7 @@ public class MainActivity extends AppCompatActivity
         activityResultLaunch.launch(intent);
     }
 
-    /*
-    //---------------------------------------------------------------------------------
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == CODIGO_LEER_PESO){
-            if(resultCode == RESULT_OK){
-                float valor = data.getFloatExtra("valor",0);
-                edtPeso.setText(valor+"");
-            }
-        }else if( requestCode == CODIGO_LEER_ESTATURA){
-            if(resultCode == RESULT_OK){
-                float valor = data.getFloatExtra("valor",0);
-                edtEstatura.setText(valor+"");
-            }
-        }
-    }*/
+   //  By: RETBOT
 
     @Override
     public void onActivityResult(ActivityResult result) {
@@ -204,5 +188,5 @@ public class MainActivity extends AppCompatActivity
             edtEstatura.setText(Float.parseFloat(data.getStringExtra("valor"))+"");
             edtEstatura.setFocusable(true);
         }
-    }
+    }//  By: RETBOT
 }
