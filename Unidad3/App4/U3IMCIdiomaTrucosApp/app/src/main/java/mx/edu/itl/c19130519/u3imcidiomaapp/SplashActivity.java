@@ -19,7 +19,7 @@
 :*
 :*------------------------------------------------------------------------------------------*/
 
-
+//  By: RETBOT
 package mx.edu.itl.c19130519.u3imcidiomaapp;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -30,7 +30,7 @@ import android.os.Handler;
 import u3imcidiomaapp.R;
 
 public class SplashActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,5 +45,5 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         }, 2000);
-    }
+    }//  By: RETBOT
 }
