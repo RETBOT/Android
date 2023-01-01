@@ -20,7 +20,7 @@
 
 :*------------------------------------------------------------------------------------------*/
 
-
+//  By: RETBOT
 package mx.edu.itl.c19130519.u5juegoasteroidesapp;
 
 import android.content.Context;
@@ -52,7 +52,7 @@ public class VistaJuegoView extends View {
     private long            ultimoProceso   = 0;
     private boolean         hayValorInicial = false;
     private float           valorInicial;
-
+//  By: RETBOT
     public static final int   PASO_GIRO_NAVE        = 5;
     public static final float PASO_ACELERACION_NAVE = 0.5f;
 
@@ -84,7 +84,7 @@ public class VistaJuegoView extends View {
         drawableAsteroide [0] = context.getResources().getDrawable(R.drawable.asteroide1);
         drawableAsteroide [1] = context.getResources().getDrawable(R.drawable.asteroide2);
         drawableAsteroide [2] = context.getResources().getDrawable(R.drawable.asteroide3);
-
+//  By: RETBOT
         nave = new Grafico(this, drawableNave);
         nave.setIncX(Math.random() * 4 - 2);
         nave.setIncY(Math.random() * 4 - 2);
@@ -116,7 +116,7 @@ public class VistaJuegoView extends View {
 
         // lgv: conocer el ancho y alto en pixeles de VistaJuego ( ocupa toda la pantalla por tanto da la resolucion )
         Toast.makeText ( getContext(), getWidth() + "," + getHeight(), Toast.LENGTH_SHORT ).show ();
-
+//  By: RETBOT
         nave.setPosX((w - nave.getAncho()) / 2);
         nave.setPosY((h - nave.getAncho()) / 2);
 
@@ -148,7 +148,7 @@ public class VistaJuegoView extends View {
     //----------------------------------------------------------------------------------------------
 
     protected void actualizarFisica () {
-
+//  By: RETBOT
         long ahora = System.currentTimeMillis();
 
         double retardo = ( ahora - ultimoProceso ) / PERIODO_PROCESO;
@@ -183,7 +183,7 @@ public class VistaJuegoView extends View {
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     private void destruyeAsteroide ( int i ) {
         int tam;
 
@@ -265,7 +265,7 @@ public class VistaJuegoView extends View {
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     public boolean isCorriendo() {
         return corriendo;
     }
@@ -287,4 +287,4 @@ public class VistaJuegoView extends View {
     }
 
     //----------------------------------------------------------------------------------------------
-}
+}//  By: RETBOT
