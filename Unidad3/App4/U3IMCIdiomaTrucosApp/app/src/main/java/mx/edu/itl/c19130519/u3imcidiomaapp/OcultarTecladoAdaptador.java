@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-
+//  By: RETBOT
 public class OcultarTecladoAdaptador implements View.OnClickListener
 {
     // Atributo
@@ -25,6 +25,7 @@ public class OcultarTecladoAdaptador implements View.OnClickListener
             imm.hideSoftInputFromWindow(vista.getWindowToken(),
                     InputMethodManager.HIDE_NOT_ALWAYS);
 
-        }
+        }//  By: RETBOT
     }
 }
+//  By: RETBOT
