@@ -21,7 +21,7 @@
 :*  07/11/2021 Jesus      Pequenos ajustes
 :*------------------------------------------------------------------------------------------*/
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -40,7 +40,7 @@ public class CalendarViewActivity extends AppCompatActivity {
     TextView myDate;
     String date;
 
-
+//  By: RETBOT
 
 
     @Override
@@ -59,7 +59,7 @@ public class CalendarViewActivity extends AppCompatActivity {
                 myDate.setText("Fecha seleccionada:" + date);
             }
         });
-
+//  By: RETBOT
     }
 
     public void regresarClick( View v ) {
@@ -67,5 +67,5 @@ public class CalendarViewActivity extends AppCompatActivity {
         Toast.makeText( calendarView.getContext(),"Ultima fecha seleccionada: " + date,Toast.LENGTH_LONG).show();
         finish();
     }
-
+//  By: RETBOT
 }
