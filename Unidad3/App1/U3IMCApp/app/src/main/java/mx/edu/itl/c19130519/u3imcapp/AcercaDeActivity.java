@@ -18,7 +18,7 @@
 :*==========================================================================================
 :*  dd/mmm/aaaa Fultano de tal       Motivo de la modificacion, puede ser en mas de 1 renglon.
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 package mx.edu.itl.c19130519.u3imcapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,7 +28,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class AcercaDeActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +39,6 @@ public class AcercaDeActivity extends AppCompatActivity {
         Intent inicio = new Intent(this, SplashActivity.class);
         startActivity(inicio);
         finish();
-    }
+    }//  By: RETBOT
 
 }
