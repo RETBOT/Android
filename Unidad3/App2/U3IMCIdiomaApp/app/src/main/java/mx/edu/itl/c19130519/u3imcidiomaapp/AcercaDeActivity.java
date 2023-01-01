@@ -18,7 +18,7 @@
 :*==========================================================================================
 :*
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 package mx.edu.itl.c19130519.u3imcidiomaapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,7 +27,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import u3imcidiomaapp.R;
-
+//  By: RETBOT
 public class AcercaDeActivity extends AppCompatActivity {
 
     @Override
@@ -40,6 +40,6 @@ public class AcercaDeActivity extends AppCompatActivity {
         Intent inicio = new Intent(this, SplashActivity.class);
         startActivity(inicio);
         finish();
-    }
+    }//  By: RETBOT
 
 }
