@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
  -------------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 package mx.edu.itl.c85360673.u4tomarfotosapp;
 
 
@@ -35,7 +35,7 @@ import java.io.IOException;
 import androidx.appcompat.app.AppCompatActivity;
 import util.imagenes.Imagen;
 
-
+//  By: RETBOT
 public class CamaraActivity extends AppCompatActivity implements View.OnClickListener {
 
     public static final int CODIGO_CAMARA  = 0;
@@ -93,7 +93,7 @@ public class CamaraActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick ( View v ) {
         calidadImagen = Integer.parseInt ( edtCalidad.getText().toString () );
-
+//  By: RETBOT
         switch ( v.getId () ) {
             case R.id.btnTomarFoto :
                 // TOMAR FOTO
@@ -192,7 +192,7 @@ public class CamaraActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     private File crearArchivoTemporal ( String part, String ext ) {
         // Obtenemos el directorio almacen primario  compartido/externo.
         File tempDir = Environment.getExternalStorageDirectory ();
@@ -217,5 +217,5 @@ public class CamaraActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
 }
