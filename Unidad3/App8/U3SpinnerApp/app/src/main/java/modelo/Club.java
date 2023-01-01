@@ -1,6 +1,6 @@
 package modelo;
-
-public class Club {
+//  By: RETBOT
+public class Club {//  By: RETBOT
     private String nombre;
     private int    escudoID;
 
@@ -11,7 +11,7 @@ public class Club {
 
     public String getNombre() {
         return nombre;
-    }
+    }//  By: RETBOT
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -25,3 +25,4 @@ public class Club {
         this.escudoID = escudoID;
     }
 }
+//  By: RETBOT
