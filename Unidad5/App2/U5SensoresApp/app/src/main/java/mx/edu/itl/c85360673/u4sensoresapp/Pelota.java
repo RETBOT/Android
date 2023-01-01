@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4sensoresapp;
-
+//  By: RETBOT
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -28,7 +28,7 @@ public class Pelota extends View implements SensorEventListener {
     private int ancho;
     private int alto;
     private Paint paint;
-
+//  By: RETBOT
     public Pelota(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         // Obtener las dimensiones de pantalla del dispositivo
@@ -56,7 +56,7 @@ public class Pelota extends View implements SensorEventListener {
     public void detener(){
         sensorManager.unregisterListener(this, sensor);
     }
-
+//  By: RETBOT
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
         // Calculamos la nueva posicion x, y de la pelota en base a las lecuras del acelerometro
@@ -68,7 +68,7 @@ public class Pelota extends View implements SensorEventListener {
             x = radio;
         else if (x > ancho - radio)
             x = ancho - radio;
-
+//  By: RETBOT
         if (y < radio)
             y = radio;
         else if (y > alto - radio)
@@ -90,4 +90,4 @@ public class Pelota extends View implements SensorEventListener {
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
     }
-}
+}//  By: RETBOT
