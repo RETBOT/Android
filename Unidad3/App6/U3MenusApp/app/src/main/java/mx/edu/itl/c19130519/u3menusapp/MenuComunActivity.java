@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3menusapp;
-
+//  By: RETBOT
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 // En este caso el menu tendrá 2 opciones en comun: Acerca de y Cambiar el color de fondo de la pantalla.
 
 public class MenuComunActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,4 +34,4 @@ public class MenuComunActivity extends AppCompatActivity {
         }
         return true;
     }
-}
+}//  By: RETBOT
