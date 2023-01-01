@@ -9,7 +9,7 @@
 :*                                Almacenamiento Privado
 :*
 :*  Archivo     : MainActivity.java
-:*  Autor       : 85360673
+:*  Autor       : //  By: RETBOT
 :*  Fecha       : 04/12/2022
 :*  Compilador  : Android Studio Artic Fox 2020.3
 :*  Descripción : Clase para almacenar la información Privada
@@ -27,7 +27,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.io.File;
+import java.io.File;//  By: RETBOT
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -60,7 +60,7 @@ public class AlmacenPrivadoActivity extends AppCompatActivity {
         } catch ( IOException ex ) {
             Toast.makeText ( this, "ERROR: " + ex, Toast.LENGTH_LONG ).show();
         }
-    }
+    }//  By: RETBOT
 
     public void btnLeerClick ( View v ) {
 
@@ -76,7 +76,7 @@ public class AlmacenPrivadoActivity extends AppCompatActivity {
             edtTextoMultiLinea.setText ( texto );
         } catch ( IOException ex ) {
 
-        }
+        }//  By: RETBOT
     }
 
     public void btnInformacionClick  ( View v ) {
@@ -96,4 +96,4 @@ public class AlmacenPrivadoActivity extends AppCompatActivity {
 
         edtTextoMultiLinea.setText ( texto );
     }
-}
+}//  By: RETBOT
