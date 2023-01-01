@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3recyclerviewejemploapp;
-
+//  By: RETBOT
 public class Persona {
     private String nombre;
     private int    edad;
@@ -19,7 +19,7 @@ public class Persona {
 
     public String getNombre() {
         return nombre;
-    }
+    }//  By: RETBOT
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -40,7 +40,7 @@ public class Persona {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
-
+//  By: RETBOT
     @Override
     public String toString() {
         return "Persona{" +
@@ -50,3 +50,4 @@ public class Persona {
                 '}';
     }
 }
+//  By: RETBOT
