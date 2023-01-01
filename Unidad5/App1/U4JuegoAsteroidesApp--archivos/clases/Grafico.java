@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 
 /**
- * Created by LGV on 25/07/2015.
+ * //  By: RETBOT
  */
 public class Grafico {
     private Drawable     drawable;
@@ -34,7 +34,7 @@ public class Grafico {
         radioColision = ( alto + ancho ) / 4;
     }
 
-
+//  By: RETBOT
     public void dibujarGrafico ( Canvas canvas ) {
         canvas.save ();
         int x = (int) ( posX + ancho / 2 );
@@ -69,7 +69,7 @@ public class Grafico {
             posY = -alto / 2;
 
         angulo += rotacion;
-    }
+    }//  By: RETBOT
 
     public double distancia ( Grafico g ) {
         return distanciaE ( posX, posY, g.posX, g.posY );
@@ -94,7 +94,7 @@ public class Grafico {
     public int getAlto() {
         return alto;
     }
-
+//  By: RETBOT
     public void setAlto(int alto) {
         this.alto = alto;
     }
@@ -121,7 +121,7 @@ public class Grafico {
 
     public void setAngulo(int angulo) {
         this.angulo = angulo;
-    }
+    }//  By: RETBOT
 
     public int getRotacion() {
         return rotacion;
@@ -138,14 +138,14 @@ public class Grafico {
     public void setIncY(double incY) {
         this.incY = incY;
     }
-
+//  By: RETBOT
     public double getPosX() {
         return posX;
     }
 
     public void setPosX(double posX) {
         this.posX = posX;
-    }
+    }//  By: RETBOT
 
     public double getPosY() {
         return posY;
@@ -156,4 +156,4 @@ public class Grafico {
     }
 
 
-}
+}//  By: RETBOT
