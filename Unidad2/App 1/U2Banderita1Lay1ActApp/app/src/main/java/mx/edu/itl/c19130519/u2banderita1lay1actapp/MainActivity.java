@@ -7,6 +7,7 @@
 :*                   SEMESTRE: AGO-DIC/2022    HORA: 08-09 HRS
 :*
 :*                    Clase que despliega la bandera de México en una única pantalla
+:*  By: RETBOT
 :*
 :*  Archivo     : MainActivity.java
 :*  Autor       : Roberto Esquivel Troncoso     19130519
@@ -23,14 +24,14 @@
 :*------------------------------------------------------------------------------------------*/
 
 package mx.edu.itl.c19130519.u2banderita1lay1actapp;
-
+//  By: RETBOT
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-
+//  By: RETBOT
     // ---------------------------------------------------------------------------------------------
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,3 +44,4 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 }
+//  By: RETBOT
