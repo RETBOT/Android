@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4sensoresapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -31,7 +31,7 @@ public class MonitorearSensoresActivity extends AppCompatActivity implements Sen
         sensorManager = (SensorManager) getSystemService ( Context.SENSOR_SERVICE );
         listaSensores = sensorManager.getSensorList ( Sensor.TYPE_ALL );
 
-        int n = 0;
+        int n = 0;//  By: RETBOT
         // Por cada sensor agregaremos textviews para mostrar sus lecturas
         for ( Sensor sensor : listaSensores  ) {
             // Creamos un textview con el nombre del sensor y lo agregamos al LinearLayout de
@@ -64,7 +64,7 @@ public class MonitorearSensoresActivity extends AppCompatActivity implements Sen
             yTextView.setText ( " Y: " );
             mLinearLayout.addView ( yTextView );
             mLinearLayout.addView ( aTextView [ n ][ 1 ] );
-
+//  By: RETBOT
             // Tercer par de textviews:  uno con la leyenda Z y el segundo para poner su lectura en Z
             TextView zTextView = new TextView ( this );
             zTextView.setText ( " Z: " );
@@ -92,7 +92,7 @@ public class MonitorearSensoresActivity extends AppCompatActivity implements Sen
         // Cancelar el registro de este activity como listener de todos los sensores
         sensorManager.unregisterListener ( this );
     }
-
+//  By: RETBOT
     @Override
     protected void onDestroy() {
         super.onDestroy ();
@@ -100,7 +100,7 @@ public class MonitorearSensoresActivity extends AppCompatActivity implements Sen
         // Cancelar el registro de este activity como listener de todos los sensores
         sensorManager.unregisterListener ( this );
     }
-
+//  By: RETBOT
     @Override
     public void onSensorChanged  ( SensorEvent sensorEvent ) {
 
@@ -119,9 +119,9 @@ public class MonitorearSensoresActivity extends AppCompatActivity implements Sen
             }
         }
     }
-
+//  By: RETBOT
     @Override
     public void onAccuracyChanged(Sensor sensor, int i) {
     }
 
-}
+}//  By: RETBOT
