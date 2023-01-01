@@ -1,6 +1,6 @@
 package mx.edu.itl.c19130519.androlib.util.permisos;
 
-
+//  By: RETBOT
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -29,7 +29,7 @@ public class ChecadorDePermisos {
                     PackageManager.PERMISSION_GRANTED) {
                 permisosReq[i].setOtorgado(true);
             }
-        }
+        }//  By: RETBOT
         // Determinar la lista de permisos que no estan otorgados
         ArrayList<String> arrTmp = new ArrayList<>();
         for (int i = 0; i < permisosReq.length; i++) {
@@ -56,7 +56,7 @@ public class ChecadorDePermisos {
             arrTmp.add(permisosReq[i].getPermiso());
 
         String permisosObligatoriosNoOtorgados = "";
-
+//  By: RETBOT
         if (grantResults.length > 0 ){
             for (int i = 0; i < grantResults.length; i++){
                 // Buscar
@@ -74,7 +74,7 @@ public class ChecadorDePermisos {
                 alteraYSalir (activity, permisosObligatoriosNoOtorgados);
             }
         }
-    }
+    }//  By: RETBOT
     private static void alteraYSalir(Activity activity, String noOtorgados) {
         // Avisar al usuario que no se puede continuar y salimos del Activity
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
@@ -93,3 +93,4 @@ public class ChecadorDePermisos {
                 .create().show();
     }
 }
+//  By: RETBOT
