@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3gridviewejemploapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class AcercaDeActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,4 +18,4 @@ public class AcercaDeActivity extends AppCompatActivity {
         startActivity ( intent );
         finish();
     }
-}
+}//  By: RETBOT
