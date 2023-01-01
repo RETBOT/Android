@@ -17,7 +17,7 @@
 :*  Ultima modif:
 :*  Fecha       Modificó             Motivo
 :*==========================================================================================
-
+//  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 
 package mx.edu.itl.c19130519.u5juegoasteroidesapp;
@@ -50,7 +50,7 @@ public class Grafico {
         ancho = drawable.getIntrinsicWidth();
         alto  = drawable.getIntrinsicHeight();
         radioColision = ( alto + ancho ) / 4;
-    }
+    }//  By: RETBOT
 
 
     public void dibujarGrafico ( Canvas canvas ) {
@@ -88,7 +88,7 @@ public class Grafico {
 
         angulo += rotacion;
     }
-
+//  By: RETBOT
     public double distancia ( Grafico g ) {
         return distanciaE ( posX, posY, g.posX, g.posY );
     }
@@ -116,7 +116,7 @@ public class Grafico {
     public void setAlto(int alto) {
         this.alto = alto;
     }
-
+//  By: RETBOT
     public int getRadioColision() {
         return radioColision;
     }
@@ -128,7 +128,7 @@ public class Grafico {
     public double getIncX() {
         return incX;
     }
-
+//  By: RETBOT
     public void setIncX(double incX) {
         this.incX = incX;
     }
@@ -148,7 +148,7 @@ public class Grafico {
     public void setRotacion(int rotacion) {
         this.rotacion = rotacion;
     }
-
+//  By: RETBOT
     public double getIncY() {
         return incY;
     }
@@ -174,4 +174,4 @@ public class Grafico {
     }
 
 
-}
+}//  By: RETBOT
