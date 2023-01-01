@@ -26,7 +26,7 @@
  *:
  */
 
-
+//  By: RETBOT
 package mx.edu.itl.c85360673.CamStudio;
 
 import androidx.annotation.NonNull;
@@ -58,7 +58,7 @@ public class TomarFoto extends AppCompatActivity {
     private String archFoto;
     private Intent intentOrigen; // Intent que invoco a este activity
     private String carpeta;
-
+//  By: RETBOT
     private PermisoApp [] permisosReq = {
             new PermisoApp  ( Manifest.permission.CAMERA, "Camara", true  ),
             new PermisoApp  ( Manifest.permission.READ_EXTERNAL_STORAGE, "Almacenamiento", true  ),
@@ -92,7 +92,7 @@ public class TomarFoto extends AppCompatActivity {
                 carpeta +
                 File.separator +
                 archFoto );
-
+//  By: RETBOT
         // Creamos el URI correspondiente al archivo de destino de la foto se usa
         // FileProvider para respetar las politicas de seguridad
         uriFoto = FileProvider.getUriForFile(
@@ -133,7 +133,7 @@ public class TomarFoto extends AppCompatActivity {
                 imgvFotoCaptura.setImageURI(Uri.parse(strUri));
             }
         }
-    }
+    }//  By: RETBOT
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -142,4 +142,4 @@ public class TomarFoto extends AppCompatActivity {
             ChecadorDePermisos.verificarPermisosSolicitados ( this, permisosReq, permissions, grantResults );
         }
     }
-}
+}//  By: RETBOT
