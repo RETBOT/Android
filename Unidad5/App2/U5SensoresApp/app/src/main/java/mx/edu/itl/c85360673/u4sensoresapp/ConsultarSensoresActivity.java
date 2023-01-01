@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4sensoresapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -41,4 +41,4 @@ public class ConsultarSensoresActivity extends AppCompatActivity  {
         }
         txtvListaSensores.append ( "Total : " + numSensores + " sensores fueron encontrados" );
     }
-}
+}//  By: RETBOT
