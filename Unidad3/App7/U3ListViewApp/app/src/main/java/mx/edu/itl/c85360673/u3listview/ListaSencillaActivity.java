@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u3listview;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -26,10 +26,10 @@ public class ListaSencillaActivity extends AppCompatActivity {
             "Santiago de Querétaro","Chetumal","San Luis Potosí","Culiacán Rosales","Hermosillo",
             "Villahermosa","Ciudad Victoria","Tlaxcala de Xicohténcatl","Xalapa-Enríquez","Mérida",
             "Zacatecas" };
-
+//  By: RETBOT
     private TextView txtvResultado;
     private ListView lstvEstados;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,8 +53,9 @@ public class ListaSencillaActivity extends AppCompatActivity {
                 String estado = ( (TextView) view ).getText().toString();
                 Toast.makeText(ListaSencillaActivity.this, estado, Toast.LENGTH_SHORT).show();
             }
-        });
+        });//  By: RETBOT
     }
 
 
 }
+//  By: RETBOT
