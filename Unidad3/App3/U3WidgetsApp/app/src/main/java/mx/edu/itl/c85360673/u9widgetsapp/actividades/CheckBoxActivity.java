@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.Toast;
-
+//  By: RETBOT
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ public class CheckBoxActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView ( R.layout.activity_checkbox );
-
+//  By: RETBOT
         _chkClubFutbol_1 = findViewById ( R.id._chkClubFutbol_1 );
         _chkClubFutbol_2 = findViewById ( R.id._chkClubFutbol_2 );
         _chkClubFutbol_3 = findViewById ( R.id._chkClubFutbol_3 );
@@ -43,7 +43,7 @@ public class CheckBoxActivity extends AppCompatActivity {
             arrayList.add ( _chkClubFutbol_3.getText().toString() );
 
         Snackbar.make ( v, "Sus favoritos : " + arrayList.toString(), Snackbar.LENGTH_LONG ).show();
-    }
+    }//  By: RETBOT
 
     //----------------------------------------------------------------------------------------------
     // Los 3 CheckBox tienen el mismo valor del atributo onClick.
@@ -65,11 +65,11 @@ public class CheckBoxActivity extends AppCompatActivity {
                 if ( _chkClubFutbol_3.isChecked() )
                     _sMensaje = _chkClubFutbol_3.getText ().toString() + " la aplanadora alemana";
                 break;
-        }
+        }//  By: RETBOT
 
         if ( ! _sMensaje.isEmpty() )
             Toast.makeText ( this, _sMensaje, Toast.LENGTH_LONG ).show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 }
