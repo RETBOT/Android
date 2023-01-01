@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 import mx.edu.itl.c85360673.u9widgetsapp.R;
 
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     public void btnAutoCompleteTextViewClick ( View v ) {
         Intent intent = new Intent ( this, AutoCompleteTextViewActivity.class );
         startActivity ( intent );
-    }
+    }//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     public void btnRadioButtonClick ( View v ) {
         Intent intent = new Intent ( this, RadioButtonActivity.class );
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     public void  btnChipClick ( View v ) {
         Intent intent = new Intent ( this, ChipActivity.class );
         startActivity ( intent );
-    }
+    }//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     public void  btnToggleButtonClick ( View v ) {
         Intent intent = new Intent ( this, ToggleButtonActivity.class );
@@ -100,12 +100,12 @@ public class MainActivity extends AppCompatActivity {
     public void  btnSeekBarDiscreteClick ( View v ) {
         Intent intent = new Intent ( this, SeekBarDiscreteActivity.class );
         startActivity ( intent );
-    }
+    }//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     public void  btnRatingBarClick ( View v ) {
         Intent intent = new Intent ( this, RatingBarActivity.class );
         startActivity ( intent );
-    }
+    }//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     public void  btnSearchViewClick ( View v ) {
         Intent intent = new Intent ( this, SearchViewActivity.class );
@@ -125,6 +125,6 @@ public class MainActivity extends AppCompatActivity {
     public void btnImageViewClick  ( View v ) {
         Intent intent = new Intent ( this, ImageViewActivity.class );
         startActivity ( intent );
-    }
+    }//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 }
