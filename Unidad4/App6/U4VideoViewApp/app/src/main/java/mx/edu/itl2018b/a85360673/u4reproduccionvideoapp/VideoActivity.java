@@ -1,5 +1,5 @@
 package mx.edu.itl2018b.a85360673.u4reproduccionvideoapp;
-
+//  By: RETBOT
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,7 +26,7 @@ public class VideoActivity extends AppCompatActivity {
         progressDialog.setMessage("Cargando...");
         progressDialog.setCanceledOnTouchOutside(false);
         progressDialog.show();
-
+//  By: RETBOT
         videoView = findViewById(R.id.videoView);
         ruta = getIntent().getStringExtra("rutaVideo");
 
@@ -49,7 +49,7 @@ public class VideoActivity extends AppCompatActivity {
                 finish();
             }
         });
-    }
+    }//  By: RETBOT
 
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
@@ -64,4 +64,4 @@ public class VideoActivity extends AppCompatActivity {
         int position = savedInstanceState.getInt("position");
         videoView.seekTo(position);
     }
-}
+}//  By: RETBOT
