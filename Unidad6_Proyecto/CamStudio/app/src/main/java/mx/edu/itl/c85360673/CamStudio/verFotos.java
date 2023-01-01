@@ -3,7 +3,7 @@ package mx.edu.itl.c85360673.CamStudio;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -34,7 +34,7 @@ public class verFotos extends AppCompatActivity
     private String path;
     private GridView grdvFotos;
     private GridAdaptador adaptador;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,7 +80,7 @@ public class verFotos extends AppCompatActivity
         startActivity(intent);
     }
 
-
+//  By: RETBOT
     public class GridAdaptador extends ArrayAdapter {
         private List<String> item = null;
         private int layoutResId;
@@ -93,7 +93,7 @@ public class verFotos extends AppCompatActivity
             layoutResId = resource;
             inflater = LayoutInflater.from(context);
         }
-
+//  By: RETBOT
         @NonNull
         @Override
         public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -115,5 +115,5 @@ public class verFotos extends AppCompatActivity
         intent.putExtra("carpeta", carpeta);
         startActivity ( intent );
         finish();
-    }
+    }//  By: RETBOT
 }
