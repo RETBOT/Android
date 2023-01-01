@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,7 +25,7 @@ public class ChipActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chip2);
-
+//  By: RETBOT
 
         //-------------- Codigo para el chip --------------------
         chip = (Chip)findViewById(R.id.PruebaChip);
@@ -47,7 +47,7 @@ public class ChipActivity extends AppCompatActivity {
         btnAgregarEtiqueta = (MaterialButton)findViewById(R.id.btnAgregarEtiqueta);
         chipGroup = (ChipGroup)findViewById(R.id.chip_group);
         textEdit = (TextInputEditText) findViewById(R.id.input);
-
+//  By: RETBOT
         //Cuando damos click en agregar, vamos a partir el texto en tags
         btnAgregarEtiqueta.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,6 +72,6 @@ public class ChipActivity extends AppCompatActivity {
             }
         });
 
-
+//  By: RETBOT
     }
 }
