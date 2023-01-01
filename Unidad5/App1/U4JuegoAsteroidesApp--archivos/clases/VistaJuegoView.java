@@ -1,5 +1,5 @@
 package mx.edu.itl2019a.a85360673.u4juegoasteroidesapp;
-
+//  By: RETBOT
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Vector;
 
 /**
- * Created by LGV on 25/07/2015.
+ * //  By: RETBOT
  */
 public class VistaJuegoView extends View {
 
@@ -34,7 +34,7 @@ public class VistaJuegoView extends View {
 
     public static final int   PASO_GIRO_NAVE        = 5;
     public static final float PASO_ACELERACION_NAVE = 0.5f;
-
+//  By: RETBOT
     // ******* MISIL  *******
     private Grafico         misil;
     private static int      PASO_VELOCIDAD_MISIL = 12;
@@ -63,7 +63,7 @@ public class VistaJuegoView extends View {
         nave.setIncY(Math.random() * 4 - 2);
         nave.setAngulo(0);
         nave.setRotacion(5);
-
+//  By: RETBOT
         misil = new Grafico ( this, drawableMisil );
 
         asteroides = new Vector<Grafico>();
@@ -97,7 +97,7 @@ public class VistaJuegoView extends View {
             } while ( asteroide.distancia ( nave ) < ( w + h ) / 5 );
         }
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     @Override
@@ -120,7 +120,7 @@ public class VistaJuegoView extends View {
     protected void actualizarFisica () {
 
         long ahora = System.currentTimeMillis();
-
+//  By: RETBOT
         double retardo = ( ahora - ultimoProceso ) / PERIODO_PROCESO;
         nave.setAngulo((int) (nave.getAngulo() + giroNave * retardo ));
         double nIncX = nave.getIncX () + aceleracionNave * Math.cos ( Math.toRadians ( nave.getAngulo() ) ) * retardo * 0;
@@ -151,7 +151,7 @@ public class VistaJuegoView extends View {
             }
         }
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     private void destruyeAsteroide ( int i ) {
@@ -175,7 +175,7 @@ public class VistaJuegoView extends View {
                     asteroides.add(asteroide);
                 }
             }
-
+//  By: RETBOT
             asteroides.remove(i);
             misilActivo = false;
         }
@@ -216,7 +216,7 @@ public class VistaJuegoView extends View {
         mY = y;
         return true;
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     private void activaMisil () {
@@ -231,10 +231,5 @@ public class VistaJuegoView extends View {
         misilActivo = true;
     }
 
-    //----------------------------------------------------------------------------------------------
-
-    //----------------------------------------------------------------------------------------------
-
-    //----------------------------------------------------------------------------------------------
-    //----------------------------------------------------------------------------------------------
+//  By: RETBOT
 }
