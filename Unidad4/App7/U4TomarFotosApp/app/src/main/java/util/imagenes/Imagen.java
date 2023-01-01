@@ -1,5 +1,5 @@
 package util.imagenes;
-
+//  By: RETBOT
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -9,7 +9,7 @@ import android.widget.Toast;
 import java.io.FileNotFoundException;
 
 public class Imagen {
-
+//  By: RETBOT
     public static Bitmap reducirBitmap (Context context, String strUri, int maxAncho, int maxAlto ) {
         try {
             final BitmapFactory.Options options = new BitmapFactory.Options ();
@@ -34,3 +34,4 @@ public class Imagen {
         }
     }
 }
+//  By: RETBOT
