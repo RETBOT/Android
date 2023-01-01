@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u3listview;
-
+//  By: RETBOT
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//  By: RETBOT
 public class ListaTextoImagenActivity extends AppCompatActivity {
 
     private ListView lstvClubes;
@@ -34,7 +34,7 @@ public class ListaTextoImagenActivity extends AppCompatActivity {
                                    R.drawable.listview_zagreb,
                                    R.drawable.listview_dinamokiev
                                  };
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     @Override
@@ -57,7 +57,7 @@ public class ListaTextoImagenActivity extends AppCompatActivity {
 
     }
 
-
+//  By: RETBOT
 
     //----------------------------------------------------------------------------------------------
     class MiAdaptador extends ArrayAdapter{
@@ -72,7 +72,7 @@ public class ListaTextoImagenActivity extends AppCompatActivity {
             this.clubes = clubes;
             this.descripciones = descripciones;
             this.logos = logos;
-        }
+        }//  By: RETBOT
 
         @NonNull
         @Override
@@ -85,7 +85,7 @@ public class ListaTextoImagenActivity extends AppCompatActivity {
             ImageView logo = convertView.findViewById(R.id.imagvLogo);
             TextView titulo = convertView.findViewById(R.id.txtvTitulo);
             TextView subtitulo = convertView.findViewById(R.id.txtvSubtitulo);
-
+//  By: RETBOT
             logo.setImageResource( logos [ position] );
             titulo.setText( clubes [position] );
             subtitulo.setText( descripciones [position] );
@@ -94,3 +94,4 @@ public class ListaTextoImagenActivity extends AppCompatActivity {
         }
     }
 }
+//  By: RETBOT
