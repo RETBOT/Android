@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HolaMundoApp</string>
+    <string name="by">RETBOT</string>
 </resources>
