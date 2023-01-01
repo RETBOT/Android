@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.CamStudio;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.net.Uri;
@@ -15,7 +15,7 @@ public class DetalleFoto extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle_foto);
         getSupportActionBar().hide();
-
+//  By: RETBOT
         imgvDetalleFoto = findViewById(R.id.imgvDetalleFoto);
         path = Environment.getExternalStorageDirectory().toString() + "/DCIM/";
 
@@ -25,4 +25,4 @@ public class DetalleFoto extends AppCompatActivity {
         String strUri = path + carpeta+"/"+foto;
         imgvDetalleFoto.setImageURI(Uri.parse(strUri));
     }
-}
+}//  By: RETBOT
