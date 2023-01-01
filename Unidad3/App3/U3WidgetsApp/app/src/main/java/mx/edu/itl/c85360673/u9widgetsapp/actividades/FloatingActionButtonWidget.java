@@ -20,7 +20,7 @@
 :*  22/09/2021 Rodrigo       Agregar este formato .
 :*------------------------------------------------------------------------------------------*/
 
-
+//  By: RETBOT
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
 
 import android.os.Bundle;
@@ -51,7 +51,7 @@ public class FloatingActionButtonWidget extends AppCompatActivity {
         fab = (FloatingActionButton) findViewById(R.id.fab);
         fab1 = (FloatingActionButton) findViewById(R.id.fab1);
         fab2 = (FloatingActionButton) findViewById(R.id.fab2);
-
+//  By: RETBOT
         //Animaciones
         fabOpen = AnimationUtils.loadAnimation(this,R.anim.fab_open);
         fabClose = AnimationUtils.loadAnimation(this,R.anim.fab_close);
@@ -79,7 +79,7 @@ public class FloatingActionButtonWidget extends AppCompatActivity {
                 Toast.makeText(FloatingActionButtonWidget.this,"Folder click",Toast.LENGTH_SHORT).show();
             }
         });
-    }
+    }//  By: RETBOT
 
     private void animatefab(){
         if (isOpen){
@@ -98,6 +98,6 @@ public class FloatingActionButtonWidget extends AppCompatActivity {
             fab2.setClickable(true);
             isOpen=true;
         }
-    }
+    }//  By: RETBOT
 
 }
