@@ -18,12 +18,12 @@
 :*==========================================================================================
 :*  dd/mmm/aaaa Fultano de tal       Motivo de la modificacion, puede ser en mas de 1 renglon.
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 
 package mx.edu.itl.c19130519.u3imcapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -34,7 +34,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_layout);
-
+//  By: RETBOT
         // Hacer el cambio a MainAactivity despues de 2 seg
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -44,5 +44,5 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         }, 2000);
-    }
+    }//  By: RETBOT
 }
