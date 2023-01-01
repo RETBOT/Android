@@ -16,14 +16,14 @@
 :*  Ultima modif:
 :*  Fecha       Modificó             Motivo
 :*==========================================================================================
-
+//  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 
 
 package mx.edu.itl.c19130519.u5juegoasteroidesapp;
 
 import android.util.Log;
-
+//  By: RETBOT
 public class VistaJuegoThread extends Thread {
     private VistaJuegoView vistaJuegoView;
     private int peroiodoSleep;
@@ -33,7 +33,7 @@ public class VistaJuegoThread extends Thread {
         this.vistaJuegoView = vistaJuegoView;
         this.peroiodoSleep = peroiodoSleep;
     }
-    @Override
+    @Override//  By: RETBOT
     public void run(){
         boolean corriendo = vistaJuegoView.isCorriendo();
         while (corriendo) {
@@ -46,4 +46,4 @@ public class VistaJuegoThread extends Thread {
             }
         }
     }
-}
+}//  By: RETBOT
