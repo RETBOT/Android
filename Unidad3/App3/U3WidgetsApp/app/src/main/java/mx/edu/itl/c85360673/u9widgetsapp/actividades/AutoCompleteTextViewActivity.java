@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 import mx.edu.itl.c85360673.u9widgetsapp.R;
 
@@ -8,12 +8,12 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
 public class AutoCompleteTextViewActivity extends AppCompatActivity {
-
+//  By: RETBOT
     private AutoCompleteTextView _autoctxtvApellido;
     private String [] _arrApellidos = { "Vazquez", "Vasquez", "Flores", "Floriuc", "Gutierrez",
                                      "Gomez", "Gonzalez", "Gonzalitoz", "Fernandez", "Fonseca",
                                      "Sanchez", "Sosa", "Salas", "Salmeron", "Solano"   };
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,4 +30,4 @@ public class AutoCompleteTextViewActivity extends AppCompatActivity {
         _autoctxtvApellido.setAdapter  ( arrayAdapter );
     }
     //----------------------------------------------------------------------------------------------
-}
+}//  By: RETBOT
