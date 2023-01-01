@@ -22,7 +22,7 @@
 :*
 :*------------------------------------------------------------------------------------------*/
 package mx.edu.itl.c19130519.u2banderita1lay1actapp;
-
+//  By: RETBOT
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,7 +30,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class banderacanada extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,7 +61,7 @@ public class banderacanada extends AppCompatActivity {
                 Toast.LENGTH_SHORT
         ).show();
     }
-
+//  By: RETBOT
     @Override
     public void onPause() {
         super.onPause();
@@ -91,7 +91,7 @@ public class banderacanada extends AppCompatActivity {
                 Toast.LENGTH_SHORT
         ).show();
     }
-
+//  By: RETBOT
     @Override
     public void onRestart() {
         super.onRestart();
@@ -107,7 +107,7 @@ public class banderacanada extends AppCompatActivity {
         finish();
     }
     //Metodo abrir una nueva vista
-
+//  By: RETBOT
     public void btnUsaClick( View v){
         Intent banUsa = new Intent(this, BanderaUSA.class);
         startActivity(banUsa);
@@ -128,4 +128,4 @@ public class banderacanada extends AppCompatActivity {
                 Toast.LENGTH_LONG
         ).show();
     }
-}
+}//  By: RETBOT
