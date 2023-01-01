@@ -1,7 +1,7 @@
 package mx.edu.itl.c85360673.u4reproaudioapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity
         rbSuavemente = findViewById(R.id.rbSuavemente);
 
         setVolumeControlStream( AudioManager.STREAM_MUSIC );
-    }
+    }//  By: RETBOT
 
     public void btnAcercaDeClick( View v ){
         Toast toast = Toast.makeText(this, "Roberto Esquivel Troncoso 19130519", Toast.LENGTH_SHORT);
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity
         }
         return false;
     }
-
+//  By: RETBOT
     private void reproducirAudio(){https://youtu.be/WPiEbYSF9kE
         if(mp == null){
             //mp = MediaPlayer.create(this, R.raw.tropicalisimo);
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity
             desactivarRBGrup();
             mp.start();
         }
-    }
+    }//  By: RETBOT
 
     private void detenerAudio(){
         if(mp != null){
@@ -108,4 +108,4 @@ public class MainActivity extends AppCompatActivity
         rbOyeMujer.setEnabled(true);
         rbSuavemente.setEnabled(true);
     }
-}
+}//  By: RETBOT
