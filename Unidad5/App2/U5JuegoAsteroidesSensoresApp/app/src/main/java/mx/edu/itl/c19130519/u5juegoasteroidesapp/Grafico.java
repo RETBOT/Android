@@ -17,7 +17,7 @@
 :*  Ultima modif:
 :*  Fecha       Modificó             Motivo
 :*==========================================================================================
-
+//  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 
 package mx.edu.itl.c19130519.u5juegoasteroidesapp;
@@ -27,7 +27,7 @@ import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.Toast;
-
+//  By: RETBOT
 public class Grafico {
     private Drawable     drawable;
     private double       posX,
@@ -46,7 +46,7 @@ public class Grafico {
     public Grafico ( View view, Drawable drawable ) {
         this.view = view;
         this.drawable = drawable;
-
+//  By: RETBOT
         ancho = drawable.getIntrinsicWidth();
         alto  = drawable.getIntrinsicHeight();
         radioColision = ( alto + ancho ) / 4;
@@ -63,7 +63,7 @@ public class Grafico {
         canvas.restore();
         int rInval = (int) distanciaE ( 0, 0, ancho, alto ) / 2 + MAX_VELOCIDAD;
         view.invalidate ( x - rInval, y - rInval, x + rInval, y + rInval );
-    }
+    }//  By: RETBOT
 
     public static int getMaxVelocidad() {
         return MAX_VELOCIDAD;
@@ -87,7 +87,7 @@ public class Grafico {
             posY = -alto / 2;
 
         angulo += rotacion;
-    }
+    }//  By: RETBOT
 
     public double distancia ( Grafico g ) {
         return distanciaE ( posX, posY, g.posX, g.posY );
@@ -112,7 +112,7 @@ public class Grafico {
     public int getAlto() {
         return alto;
     }
-
+//  By: RETBOT
     public void setAlto(int alto) {
         this.alto = alto;
     }
@@ -144,7 +144,7 @@ public class Grafico {
     public int getRotacion() {
         return rotacion;
     }
-
+//  By: RETBOT
     public void setRotacion(int rotacion) {
         this.rotacion = rotacion;
     }
@@ -156,7 +156,7 @@ public class Grafico {
     public void setIncY(double incY) {
         this.incY = incY;
     }
-
+//  By: RETBOT
     public double getPosX() {
         return posX;
     }
@@ -172,6 +172,6 @@ public class Grafico {
     public void setPosY(double posY) {
         this.posY = posY;
     }
-
+//  By: RETBOT
 
 }
