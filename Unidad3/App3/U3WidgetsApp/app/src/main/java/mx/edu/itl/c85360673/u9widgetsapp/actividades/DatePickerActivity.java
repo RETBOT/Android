@@ -1,12 +1,12 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Calendar;
@@ -26,7 +26,7 @@ public class DatePickerActivity extends AppCompatActivity {
         btnDate = findViewById(R.id.btnDatePicker);
         btnDate.setText(getTodaysDate());
     }
-
+//  By: RETBOT
     private String getTodaysDate()
     {
         Calendar cal = Calendar.getInstance();
@@ -45,7 +45,7 @@ public class DatePickerActivity extends AppCompatActivity {
                 mes = mes + 1;
                 String fecha = makeDateString(dia, mes, ano);
                 btnDate.setText(fecha);
-            }
+            }//  By: RETBOT
         };
 
         Calendar cal = Calendar.getInstance();
@@ -62,7 +62,7 @@ public class DatePickerActivity extends AppCompatActivity {
         //↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
         //dpd.getDatePicker().setMaxDate(System.currentTimeMillis());
     }
-
+//  By: RETBOT
     private String makeDateString(int dia, int mes, int ano)
     {
         return getMesFormat(mes) + " " + dia + " " + ano;
@@ -97,7 +97,7 @@ public class DatePickerActivity extends AppCompatActivity {
             return "DIC";
         return "ENE";
 
-    }
+    }//  By: RETBOT
 
     public void AbrirDatePicker(View view)
     {
