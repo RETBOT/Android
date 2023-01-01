@@ -1,11 +1,11 @@
 package mx.edu.itl.c85360673.u3spinnerejemploapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-
+//  By: RETBOT
 public class AcercaDe extends AppCompatActivity {
 
     @Override
@@ -18,4 +18,4 @@ public class AcercaDe extends AppCompatActivity {
         startActivity ( intent );
         finish();
     }
-}
+}//  By: RETBOT
