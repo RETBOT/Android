@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4smsreceptorapp;
-
+//  By: RETBOT
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +9,7 @@ import android.telephony.SmsMessage;
 import android.widget.Toast;
 
 public class SmsReceptor extends BroadcastReceiver {
-
+//  By: RETBOT
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -29,4 +29,4 @@ public class SmsReceptor extends BroadcastReceiver {
                             Toast.LENGTH_LONG).show();
     }
     }
-}
+}//  By: RETBOT
