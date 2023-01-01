@@ -1,15 +1,15 @@
 package mx.edu.itl.c19130519.u3imcidiomaapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-
+//  By: RETBOT
 public class LeerValorActivity extends AppCompatActivity {
     public static final int ARG_NO_DEFINIDO = -1;
-
+//  By: RETBOT
 
     private EditText edtValor;
     private Intent intentOrigen; // Intent que invoco a este activity
@@ -28,7 +28,7 @@ public class LeerValorActivity extends AppCompatActivity {
         if( valor == ARG_NO_DEFINIDO) {
             valor = intentOrigen.getFloatExtra("estatura", 0f);
             codigoPeticion = intentOrigen.getIntExtra("codigoPeticion", 0);
-        }
+        }//  By: RETBOT
         // Establecemos el valor del argumento en el EditText
         edtValor.setText(String.valueOf(valor));
     }
@@ -43,4 +43,4 @@ public class LeerValorActivity extends AppCompatActivity {
         setResult(codigoPeticion, intentOrigen);
         finish();
     }
-}
+}//  By: RETBOT
