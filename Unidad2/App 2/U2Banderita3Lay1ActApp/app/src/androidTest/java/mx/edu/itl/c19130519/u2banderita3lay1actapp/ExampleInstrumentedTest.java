@@ -15,6 +15,7 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
+//  By: RETBOT
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     @Test
@@ -24,3 +25,4 @@ public class ExampleInstrumentedTest {
         assertEquals("mx.edu.itl.c19130519.u2banderita3lay1actapp", appContext.getPackageName());
     }
 }
+//  By: RETBOT
