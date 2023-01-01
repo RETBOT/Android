@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3menusapp;
-
+//  By: RETBOT
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -13,7 +13,7 @@ public class MenuContextualFlotanteActivity extends AppCompatActivity {
 
     EditText edtNombre;
     EditText edtApellido;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +29,7 @@ public class MenuContextualFlotanteActivity extends AppCompatActivity {
         //...
         registerForContextMenu(edtApellido);
     }
-
+//  By: RETBOT
     // onCreateContextMenu se invoca al registrar un View con registerForContextMenu ()
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -42,7 +42,7 @@ public class MenuContextualFlotanteActivity extends AppCompatActivity {
             getMenuInflater().inflate(R.menu.menu_contextual_nombre,menu);
         }
     }
-
+//  By: RETBOT
     // Metodo para manejar la opcion de menu contextual seleccionada por el usuario
     @Override
     public boolean onContextItemSelected ( MenuItem item ) {
@@ -57,7 +57,7 @@ public class MenuContextualFlotanteActivity extends AppCompatActivity {
         }
         return true;
     }
-
+//  By: RETBOT
 }
 
 
