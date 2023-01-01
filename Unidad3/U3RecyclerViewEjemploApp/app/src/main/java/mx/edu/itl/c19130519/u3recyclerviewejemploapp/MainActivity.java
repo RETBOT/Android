@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3recyclerviewejemploapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-
+//  By: RETBOT
 public class MainActivity extends AppCompatActivity {
 
     private ArrayList<Persona> arrlstPersonas;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
     }
-
+//  By: RETBOT
     public void llenarListaPersonas(){
         // llenar el ArrayList de oersibas
         arrlstPersonas = new ArrayList<>();
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         arrlstPersonas.add( new Persona("Isaias",22,"Masculino"));
         arrlstPersonas.add( new Persona("Ivan",22,"Masculino"));
         arrlstPersonas.add( new Persona("Fatima",22,"Femenino"));
-        arrlstPersonas.add( new Persona("Roberto",23,"Masculino"));
+        arrlstPersonas.add( new Persona("Roberto",23,"Masculino"));//  By: RETBOT
         arrlstPersonas.add( new Persona("Rafael",23,"Masculino"));
         arrlstPersonas.add( new Persona("Isaias",22,"Masculino"));
         arrlstPersonas.add( new Persona("Ivan",22,"Masculino"));
@@ -88,5 +88,5 @@ public class MainActivity extends AppCompatActivity {
         arrlstPersonas.add( new Persona("Ivan",22,"Masculino"));
         arrlstPersonas.add( new Persona("Fatima",22,"Femenino"));
 
-    }
+    }//  By: RETBOT
 }
