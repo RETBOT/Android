@@ -1,5 +1,5 @@
 package mx.edu.itl2018b.a85360673.u4reproduccionvideoapp;
-
+//  By: RETBOT
 import android.content.Intent;
 import android.os.Environment;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         ruta = "android.resource://" + this.getPackageName() + "/" + R.raw.la_pachanga;
         lanzarVideoActiviy ();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     public void btnDesdeInternetClick ( View v ) {
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     public void btnDesdeAlmIntClick ( View v ) {
         // Reproducir un video en la carpeta DCIM del almacenamiento interno
         ruta = "file://" + Environment.getExternalStorageDirectory()
@@ -61,6 +61,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
 
 }
