@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4intentsimplicitosapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.net.Uri;
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 public class FotoActivity extends AppCompatActivity {
 
     ImageView imageView;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,3 +23,4 @@ public class FotoActivity extends AppCompatActivity {
         imageView.setImageURI ( Uri.parse ( uri ) );
     }
 }
+//  By: RETBOT
