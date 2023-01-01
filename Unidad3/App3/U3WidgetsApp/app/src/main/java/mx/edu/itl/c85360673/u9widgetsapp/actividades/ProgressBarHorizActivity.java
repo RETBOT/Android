@@ -31,7 +31,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import mx.edu.itl.c85360673.u9widgetsapp.R;
@@ -57,7 +57,7 @@ public class ProgressBarHorizActivity extends AppCompatActivity {
 
 
     }
-
+//  By: RETBOT
     public void btnAceptarClick(View v){
         String usuario = edtUsu.getText().toString();
         String contrasena = edtCon.getText().toString();
@@ -96,6 +96,6 @@ public class ProgressBarHorizActivity extends AppCompatActivity {
             }
         }else{
             Toast.makeText(ProgressBarHorizActivity.this, "Credenciales Incorrectas", Toast.LENGTH_LONG).show();
-        }
+        }//  By: RETBOT
     }
 }
