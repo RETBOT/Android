@@ -9,7 +9,7 @@
 :*                                Clase principal
 :*
 :*  Archivo     : MainActivity.java
-:*  Autor       : 85360673
+:*  Autor       : //  By: RETBOT
 :*  Fecha       : 04/12/2022
 :*  Compilador  : Android Studio Artic Fox 2020.3
 :*  Descripci�n : Clase principal para redireccionar a las diferentes formas de almacenar Publica/Privada
@@ -28,7 +28,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent ( this, AlmacenPublicoActivity.class );
         startActivity ( intent );
 
-    }
+    }//  By: RETBOT
 
     public void btnAcercaDeClick( View v ){
         Toast toast = Toast.makeText(this, "Roberto Esquivel Troncoso 19130519", Toast.LENGTH_SHORT);
@@ -54,3 +54,4 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
+//  By: RETBOT
