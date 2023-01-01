@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u3listview;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class AcercaDeActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,5 +18,5 @@ public class AcercaDeActivity extends AppCompatActivity {
         Intent intent  = new Intent ( this, MainActivity.class );
         startActivity ( intent );
         finish();
-    }
+    }//  By: RETBOT
 }
