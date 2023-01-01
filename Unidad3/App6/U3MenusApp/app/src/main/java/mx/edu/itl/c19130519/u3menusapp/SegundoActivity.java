@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3menusapp;
-
+//  By: RETBOT
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,7 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 public class SegundoActivity extends MenuComunActivity {
 
     ConstraintLayout layout;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +26,7 @@ public class SegundoActivity extends MenuComunActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Se llama a super para que recree el menu con las opciones en comun
         super.onCreateOptionsMenu(menu);
-
+//  By: RETBOT
         // Agregamos la nueva opcion
         MenuItem mni = menu.add ( Menu.NONE, 44191944, Menu.NONE, "Opcion agregada"  );
 
@@ -48,4 +48,4 @@ public class SegundoActivity extends MenuComunActivity {
                 return super.onOptionsItemSelected(item);  //
         }
     }
-}
+}//  By: RETBOT
