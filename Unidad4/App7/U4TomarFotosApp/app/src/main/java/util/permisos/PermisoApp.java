@@ -1,5 +1,5 @@
 package util.permisos;
-
+//  By: RETBOT
 public class PermisoApp {
 
     private String permiso      = "";
@@ -12,7 +12,7 @@ public class PermisoApp {
         this.nombreCorto = nombreCorto;
         this.obligatorio = obligatorio;
     }
-
+//  By: RETBOT
     public String getPermiso() {
         return permiso;
     }
@@ -28,7 +28,7 @@ public class PermisoApp {
     public void setNombreCorto(String nombreCorto) {
         this.nombreCorto = nombreCorto;
     }
-
+//  By: RETBOT
     public boolean isObligatorio() {
         return obligatorio;
     }
@@ -44,4 +44,4 @@ public class PermisoApp {
     public void setOtorgado(boolean otorgado) {
         this.otorgado = otorgado;
     }
-}
+}//  By: RETBOT
