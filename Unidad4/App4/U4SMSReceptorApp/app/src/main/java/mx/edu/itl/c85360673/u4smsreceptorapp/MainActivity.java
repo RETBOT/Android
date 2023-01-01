@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4smsreceptorapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,3 +21,4 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 }
+//  By: RETBOT
