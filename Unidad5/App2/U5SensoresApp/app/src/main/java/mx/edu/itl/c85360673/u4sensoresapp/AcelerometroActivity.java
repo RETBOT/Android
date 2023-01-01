@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4sensoresapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -15,7 +15,7 @@ public class AcelerometroActivity extends AppCompatActivity {
 
         pelota = findViewById(R.id.pelota);
     }
-
+//  By: RETBOT
     @Override
     protected void onResume() {
         super.onResume();
@@ -33,4 +33,4 @@ public class AcelerometroActivity extends AppCompatActivity {
         super.onDestroy();
         pelota.detener();
     }
-}
+}//  By: RETBOT
