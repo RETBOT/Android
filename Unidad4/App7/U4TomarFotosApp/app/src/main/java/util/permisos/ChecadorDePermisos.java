@@ -1,6 +1,6 @@
 package util.permisos;
 
-
+//  By: RETBOT
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -18,7 +18,7 @@ public class ChecadorDePermisos {
         // Si el arreglo de permisos no trae nada retornamos
         if ( permisosReq == null || permisosReq.length == 0 )
             return;
-
+//  By: RETBOT
         // Verificar cuales permisos estan otorgados y marcalos
         for ( int i = 0; i < permisosReq.length; i++ ) {
             if ( ContextCompat.checkSelfPermission ( activity, permisosReq [ i ].getPermiso () )
@@ -55,7 +55,7 @@ public class ChecadorDePermisos {
             arrTmp.add ( permisosReq [ i ].getPermiso () );
 
         String permisosOblitariosNoOtorgados = "";
-
+//  By: RETBOT
         if ( grantResults.length > 0  ) {
             // Recorrer el arreglo de resultados de permisos otorgados
             for ( int i = 0; i < grantResults.length; i ++ ) {
@@ -77,7 +77,7 @@ public class ChecadorDePermisos {
             }
         }
     }
-
+//  By: RETBOT
     private static void alertarYSalir ( final Activity activity, String noOtorgados ) {
         // Avisar al usuario que no se puede continuar y salimos del Activity
         AlertDialog.Builder builder = new AlertDialog.Builder ( activity );
@@ -96,8 +96,9 @@ public class ChecadorDePermisos {
                 .create()
                 .show();
     }
-
+//  By: RETBOT
 
 
 
 }
+//  By: RETBOT
