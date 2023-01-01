@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 import mx.edu.itl.c85360673.u9widgetsapp.R;
 
@@ -23,7 +23,7 @@ public class TextInputEditActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_textinputedit);
-
+//  By: RETBOT
         _edtLineaTexto= findViewById ( R.id._edtLineaTexto );
         _txtinptHimno = findViewById ( R.id._txtinptHimno);
         _txtinptHimno.append ( "\nPara ti las guirnaldas de Oliva." );
@@ -37,7 +37,7 @@ public class TextInputEditActivity extends AppCompatActivity
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     @Override
     public void onClick ( View view ) {
         int _id = view.getId();
@@ -54,6 +54,6 @@ public class TextInputEditActivity extends AppCompatActivity
             Toast.makeText ( this, _himno, Toast.LENGTH_LONG ).show ();
         }
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 }
