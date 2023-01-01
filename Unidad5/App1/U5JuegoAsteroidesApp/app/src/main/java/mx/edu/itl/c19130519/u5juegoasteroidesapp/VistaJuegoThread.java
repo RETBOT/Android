@@ -16,7 +16,7 @@
 :*  Ultima modif:
 :*  Fecha       Modificó             Motivo
 :*==========================================================================================
-
+//  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 
 
@@ -32,7 +32,7 @@ public class VistaJuegoThread extends Thread {
         super();
         this.vistaJuegoView = vistaJuegoView;
         this.peroiodoSleep = peroiodoSleep;
-    }
+    }//  By: RETBOT
     @Override
     public void run(){
         boolean corriendo = vistaJuegoView.isCorriendo();
@@ -47,3 +47,4 @@ public class VistaJuegoThread extends Thread {
         }
     }
 }
+//  By: RETBOT
