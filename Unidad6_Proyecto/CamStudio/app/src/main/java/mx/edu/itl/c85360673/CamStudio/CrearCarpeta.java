@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.CamStudio;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -18,4 +18,4 @@ public class CrearCarpeta extends AppCompatActivity {
         edNombre = findViewById(R.id.edtCarpeta);
 
     }
-}
+}//  By: RETBOT
