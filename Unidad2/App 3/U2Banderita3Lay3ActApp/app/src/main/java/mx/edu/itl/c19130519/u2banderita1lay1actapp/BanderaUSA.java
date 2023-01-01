@@ -22,7 +22,7 @@
 :*
 :*------------------------------------------------------------------------------------------*/
 package mx.edu.itl.c19130519.u2banderita1lay1actapp;
-
+//  By: RETBOT
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -50,7 +50,7 @@ public class BanderaUSA extends AppCompatActivity {
                 "Bandera 2 (onSrart)",
                 Toast.LENGTH_SHORT
         ).show();
-    }
+    }//  By: RETBOT
 
     @Override
     public void onResume() {
@@ -80,7 +80,7 @@ public class BanderaUSA extends AppCompatActivity {
                 "Bandera 2 (onStop)",
                 Toast.LENGTH_SHORT
         ).show();
-    }
+    }//  By: RETBOT
 
     @Override
     public void onDestroy() {
@@ -91,7 +91,7 @@ public class BanderaUSA extends AppCompatActivity {
                 Toast.LENGTH_SHORT
         ).show();
     }
-
+//  By: RETBOT
     @Override
     public void onRestart() {
         super.onRestart();
@@ -105,7 +105,7 @@ public class BanderaUSA extends AppCompatActivity {
     public void btnSalirClick( View v ){
         finish();
     }
-
+//  By: RETBOT
     //Metodo abrir una nueva vista
     public void btnMxnClick( View v){
         Intent banMxn = new Intent(this, MainActivity.class);
@@ -117,7 +117,7 @@ public class BanderaUSA extends AppCompatActivity {
         startActivity(banCA);
         finish();
     }
-
+//  By: RETBOT
     public void btnAcercaDe( View v){
         Toast.makeText(
                 this,
