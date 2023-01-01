@@ -35,7 +35,7 @@ import androidx.core.view.MenuItemCompat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+//  By: RETBOT
 import mx.edu.itl.c85360673.u9widgetsapp.R;
 
 public class SearchViewActivity extends AppCompatActivity {
@@ -55,7 +55,7 @@ public class SearchViewActivity extends AppCompatActivity {
         arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, android.R.id.text1, listaElementos);
         lista.setAdapter(arrayAdapter);
     }
-
+//  By: RETBOT
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -77,5 +77,5 @@ public class SearchViewActivity extends AppCompatActivity {
         });
 
         return super.onCreateOptionsMenu(menu);
-    }
+    }//  By: RETBOT
 }
