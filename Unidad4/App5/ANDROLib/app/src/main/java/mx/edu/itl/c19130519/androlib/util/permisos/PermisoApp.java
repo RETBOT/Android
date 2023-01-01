@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.androlib.util.permisos;
-
+//  By: RETBOT
 public class PermisoApp {
     private String permiso = "";
     private String nombreCorto = "";
@@ -15,7 +15,7 @@ public class PermisoApp {
     public String getPermiso() {
         return permiso;
     }
-
+//  By: RETBOT
     public void setPermiso(String permiso) {
         this.permiso = permiso;
     }
@@ -43,4 +43,4 @@ public class PermisoApp {
     public void setOtorgado(boolean otorgado) {
         this.otorgado = otorgado;
     }
-}
+}//  By: RETBOT
