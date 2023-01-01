@@ -20,7 +20,7 @@
 :*  22/09/2021  María                 Terminar app.
 :*------------------------------------------------------------------------------------------*/
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import android.os.Bundle;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -42,7 +42,7 @@ public class SeekBarDiscreteActivity extends AppCompatActivity {
         textviewtamaño = (TextView) findViewById(R.id.textView8);
 
         cambiarTamaño();
-
+//  By: RETBOT
      }
 
      public void cambiarTamaño () {
@@ -85,7 +85,7 @@ public class SeekBarDiscreteActivity extends AppCompatActivity {
                     textview.setTextSize(20);
                 }
             }
-
+//  By: RETBOT
             @Override
             public void onStartTrackingTouch(SeekBar seekBar) {
 
@@ -96,7 +96,7 @@ public class SeekBarDiscreteActivity extends AppCompatActivity {
 
             }
         });
-
+//  By: RETBOT
 
      }
 }
