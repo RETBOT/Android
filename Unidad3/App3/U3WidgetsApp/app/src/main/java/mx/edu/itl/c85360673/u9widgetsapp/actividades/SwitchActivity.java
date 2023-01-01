@@ -22,7 +22,7 @@ package mx.edu.itl.c85360673.u9widgetsapp.actividades;
 :*  Ultima modif:
 :*  Fecha       Modifico             Motivo
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -35,7 +35,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import mx.edu.itl.c85360673.u9widgetsapp.R;
 
 public class SwitchActivity extends AppCompatActivity {
-
+//  By: RETBOT
     private Switch tipo;
     private Switch verde;
     private Switch tamaño;
@@ -68,7 +68,7 @@ public class SwitchActivity extends AppCompatActivity {
             AndroidTexto.setTextSize(20);
 
     }
-
+//  By: RETBOT
     public void btnEnviar ( View v) {
 
         String statusSwitch1, statusSwitch2, statusSwitch3;
@@ -87,6 +87,6 @@ public class SwitchActivity extends AppCompatActivity {
 
             Toast.makeText(getApplicationContext(), "Estado de los switch" + "\n" + "Switch1 :" + statusSwitch1 + "\n" + "Switch2 :" + statusSwitch2 +
                     "\n" + "Switch3 :" + statusSwitch3, Toast.LENGTH_LONG).show();
-        }
+        }//  By: RETBOT
 
 }
