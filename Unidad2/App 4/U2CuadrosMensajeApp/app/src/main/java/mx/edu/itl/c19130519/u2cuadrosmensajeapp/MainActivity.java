@@ -18,7 +18,7 @@
 :*==========================================================================================
 
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 
 package mx.edu.itl.c19130519.u2cuadrosmensajeapp;
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 "Toast duracion corta",
                 Toast.LENGTH_SHORT
         ).show();
-    }
+    }//  By: RETBOT
 
     //----------------------------------------------------------------------------------------------
     // TOAST de duracion larga
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
         builder.setMessage("Cuadro de mensaje simple").create().show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     // Cuadro de Mensaje con boton ACEPTAR
     public void btnAlertConBtnOk( View v){
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
                 .create()
                 .show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     // Cuadro con lista de opciones sencillas
 
@@ -171,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
                 .show();
 
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     // Cuadro con lista de opciones con casillas de verificacion, seleccion multiple
     private boolean seleccionados [] ={false, false, false}; // Defaul: ninguna casilla marcada
@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
                 .create()
                 .show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     private EditText edtUsuario;
     private EditText edtContrasena;
@@ -246,6 +246,6 @@ public class MainActivity extends AppCompatActivity {
                 .show();
         
     }
-
+//  By: RETBOT
 
 }
