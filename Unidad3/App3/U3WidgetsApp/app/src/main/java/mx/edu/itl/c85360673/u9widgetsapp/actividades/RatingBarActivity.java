@@ -25,7 +25,7 @@ import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import mx.edu.itl.c85360673.u9widgetsapp.R;
@@ -41,7 +41,7 @@ public class RatingBarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rating_bar);
-
+//  By: RETBOT
         // initiate rating bar and a button
         rBar = (RatingBar)findViewById(R.id.ratingBar1);
         btn = (Button)findViewById(R.id.btnCalificacion);
@@ -64,7 +64,7 @@ public class RatingBarActivity extends AppCompatActivity {
                 }else if(rating < 6){
                     emoji = "\uD83D\uDE0E \uD83E\uDD73";
                 }
-
+//  By: RETBOT
                 Toast.makeText(RatingBarActivity.this, "Numero de estrellas: "+rating, Toast.LENGTH_SHORT).show();
                 tView.setText("Numero de estrellas: "+rating+" "+emoji);
             }
