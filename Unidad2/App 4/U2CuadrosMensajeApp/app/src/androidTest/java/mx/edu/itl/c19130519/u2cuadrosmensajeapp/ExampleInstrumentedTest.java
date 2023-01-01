@@ -1,7 +1,7 @@
 package mx.edu.itl.c19130519.u2cuadrosmensajeapp;
 
 import android.content.Context;
-
+//  By: RETBOT
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
@@ -9,7 +9,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
-
+//  By: RETBOT
 /**
  * Instrumented test, which will execute on an Android device.
  *
@@ -23,4 +23,4 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("mx.edu.itl.c19130519.u2cuadrosmensajeapp", appContext.getPackageName());
     }
-}
+}//  By: RETBOT
