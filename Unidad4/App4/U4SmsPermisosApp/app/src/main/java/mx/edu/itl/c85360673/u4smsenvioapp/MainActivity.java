@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u4smsenvioapp;
-
+//  By: RETBOT
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             new PermisoApp(Manifest.permission.CALL_PHONE, "Telefono", true),
             new PermisoApp(Manifest.permission.READ_EXTERNAL_STORAGE, "Almacenamiento", true),
     };
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     @Override
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
                          Toast.LENGTH_SHORT ).show();
         edtMensaje.setText ( "" );
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     private boolean validarDatos () {
@@ -111,6 +111,6 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 }
