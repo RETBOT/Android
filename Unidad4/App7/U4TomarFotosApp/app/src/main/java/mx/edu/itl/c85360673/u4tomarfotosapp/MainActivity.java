@@ -25,7 +25,7 @@
  *:          </paths>
  *:
  */
-
+//  By: RETBOT
 
 package mx.edu.itl.c85360673.u4tomarfotosapp;
 
@@ -51,7 +51,7 @@ import android.widget.Toast;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+//  By: RETBOT
 public class MainActivity extends AppCompatActivity {
 
     private Uri uriFoto;
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 "DCIM" +
                 File.separator +
                 archFoto );
-
+//  By: RETBOT
         // Creamos el URI correspondiente al archivo de destino de la foto se usa
         // FileProvider para respetar las politicas de seguridad
         uriFoto = FileProvider.getUriForFile(
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }
-    }
+    }//  By: RETBOT
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -133,4 +133,4 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
     }
-}
+}//  By: RETBOT
