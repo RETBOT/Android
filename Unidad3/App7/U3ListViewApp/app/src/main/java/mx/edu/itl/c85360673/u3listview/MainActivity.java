@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u3listview;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void btnListaConCheckboxesClick ( View v ) {
         Intent intent  = new Intent ( this, ListaConCheckboxesActivity.class );
         startActivity ( intent );
-    }
+    }//  By: RETBOT
 
     public void btnAcercaDe( View v ){
         Intent intent  = new Intent ( this, AcercaDeActivity.class );
@@ -36,3 +36,4 @@ public class MainActivity extends AppCompatActivity {
     }
 	
 }
+//  By: RETBOT
