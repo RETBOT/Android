@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.CamStudio;
-
+//  By: RETBOT
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -26,7 +26,7 @@ public class AcercaDe extends AppCompatActivity {
         progressDialog.setMessage("Cargando...");
         progressDialog.setCanceledOnTouchOutside(false);
         progressDialog.show();
-
+//  By: RETBOT
         videoView = findViewById(R.id.videoView);
         ruta = getIntent().getStringExtra("rutaVideo");
 
@@ -43,7 +43,7 @@ public class AcercaDe extends AppCompatActivity {
             }
         });
         videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener(){
-
+//  By: RETBOT
             @Override
             public void onCompletion(MediaPlayer mediaPlayer) {
                 finish();
@@ -63,4 +63,4 @@ public class AcercaDe extends AppCompatActivity {
         int position = savedInstanceState.getInt("position");
         videoView.seekTo(position);
     }
-}
+}//  By: RETBOT
