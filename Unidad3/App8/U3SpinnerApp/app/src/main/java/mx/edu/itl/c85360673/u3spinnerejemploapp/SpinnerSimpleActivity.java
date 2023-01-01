@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u3spinnerejemploapp;
-
+//  By: RETBOT
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,7 +20,7 @@ public class SpinnerSimpleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spinner_simple);
-
+//  By: RETBOT
         // Se obtiene la referencia del spinner en el layout
         spnClubesLigaMx = findViewById ( R.id.spnClubesLigaMx );
 
@@ -29,7 +29,7 @@ public class SpinnerSimpleActivity extends AppCompatActivity {
         ArrayAdapter adaptador = ArrayAdapter.createFromResource(this,
                         R.array.clubres_liga_mx,
                         android.R.layout.simple_spinner_item);
-
+//  By: RETBOT
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spnClubesLigaMx.setAdapter(adaptador);
 
@@ -46,12 +46,12 @@ public class SpinnerSimpleActivity extends AppCompatActivity {
                 Toast.makeText(SpinnerSimpleActivity.this, "Club seleccionado :"+s1,
                         Toast.LENGTH_SHORT).show();
             }
-
+//  By: RETBOT
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
 
             }
         });
-
+//  By: RETBOT
     }
 }
