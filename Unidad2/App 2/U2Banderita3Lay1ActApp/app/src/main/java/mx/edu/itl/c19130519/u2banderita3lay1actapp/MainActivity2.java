@@ -33,7 +33,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity2 extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +50,7 @@ public class MainActivity2 extends AppCompatActivity {
                 "19130519 Roberto Esquivel Troncoso",
                 Toast.LENGTH_SHORT
         ).show();
-    }
+    }//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     //Metodo abrir una nueva vista
     public void btnRojoClick( View v){
@@ -65,4 +65,4 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(verde);
         finish();
     }
-}
+}//  By: RETBOT
