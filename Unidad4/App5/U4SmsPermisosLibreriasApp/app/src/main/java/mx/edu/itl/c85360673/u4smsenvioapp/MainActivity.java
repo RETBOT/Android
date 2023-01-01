@@ -16,7 +16,7 @@
 :*  Ultima modif:
 :*  Fecha       Modific�             Motivo
 :*==========================================================================================
-:*
+:*//  By: RETBOT
 :*------------------------------------------------------------------------------------------*/
 package mx.edu.itl.c85360673.u4smsenvioapp;
 
@@ -34,7 +34,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 import mx.edu.itl.c19130519.androlib.util.permisos.ChecadorDePermisos;
 import mx.edu.itl.c19130519.androlib.util.permisos.PermisoApp;
-
+//  By: RETBOT
 public class MainActivity extends AppCompatActivity {
     private EditText      edtTelefonoDestino;
     private EditText      edtMensaje;
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
     public void btnVerPermisosClick ( View v ) {
         String permisos = "";
         for(int i = 0; i < permisosReq.length; i++){
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText (this, "SMS enviado",
                          Toast.LENGTH_SHORT ).show();
         edtMensaje.setText ( "" );
-    }
+    }//  By: RETBOT
 
     //----------------------------------------------------------------------------------------------
 
@@ -130,6 +130,6 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 }
