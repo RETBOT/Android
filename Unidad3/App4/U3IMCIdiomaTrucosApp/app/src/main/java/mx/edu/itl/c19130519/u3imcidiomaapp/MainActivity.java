@@ -25,7 +25,7 @@ package mx.edu.itl.c19130519.u3imcidiomaapp;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
+//  By: RETBOT
 import android.app.ActionBar;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     // Variables globales
     private EditText edtPeso;
     private EditText edtEstatura;
-
+//  By: RETBOT
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (imc >= 15 && imc <= 15.9) {
             return getString(R.string.delgadez_severa);
-        }
+        }//  By: RETBOT
         if (imc >= 16 && imc <= 18.4) {
             return getString(R.string.delgadez);
         }
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(acercade);
         finish();
     }
-
+//  By: RETBOT
     // ---------------------------------------------------------------------------------------------
     // Anular la acción del boton "Atras" Del Celular
     @Override
@@ -166,6 +166,6 @@ public class MainActivity extends AppCompatActivity {
                 .create()
                 .show();
     }
-
+//  By: RETBOT
     // ---------------------------------------------------------------------------------------------
 }
