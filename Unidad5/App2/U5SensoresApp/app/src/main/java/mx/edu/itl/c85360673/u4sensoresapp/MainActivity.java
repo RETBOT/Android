@@ -1,6 +1,6 @@
 package mx.edu.itl.c85360673.u4sensoresapp;
 
-
+//  By: RETBOT
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent ( this, ConsultarSensoresActivity.class );
         startActivity ( intent );
     }
-
+//  By: RETBOT
     public void btnMonitorearSensoresClick ( View v ) {
         Intent intent = new Intent ( this, MonitorearSensoresActivity.class );
         startActivity ( intent );
@@ -39,4 +39,4 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.show();
     }
-}
+}//  By: RETBOT
