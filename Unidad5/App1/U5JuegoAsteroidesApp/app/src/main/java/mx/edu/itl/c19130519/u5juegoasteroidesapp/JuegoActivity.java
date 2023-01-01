@@ -19,7 +19,7 @@
 
 :*------------------------------------------------------------------------------------------*/
 
-
+//  By: RETBOT
 package mx.edu.itl.c19130519.u5juegoasteroidesapp;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -45,7 +45,7 @@ public class JuegoActivity extends AppCompatActivity {
         vistaJuegoView = findViewById(R.id.vistaJuegoView);
 
         mplayAudioDisparo = MediaPlayer.create(this, R.raw.audio_disparo);
-
+//  By: RETBOT
         mplayAudioFondo = MediaPlayer.create(this, R.raw.audio_fondo);
         mplayAudioFondo.setLooping(true);
 
@@ -66,7 +66,7 @@ public class JuegoActivity extends AppCompatActivity {
         if(mplayAudioFondo != null)
             mplayAudioFondo.pause();
     }
-
+//  By: RETBOT
     @Override
     protected void onDestroy() {
         if(mplayAudioFondo != null)
@@ -77,7 +77,7 @@ public class JuegoActivity extends AppCompatActivity {
 
         vistaJuegoView.setCorriendo(false);
         VistaJuegoThread hilo = vistaJuegoView.getVistaJuegoThread();
-
+//  By: RETBOT
         try {
             hilo.join();
         } catch (InterruptedException ex) {
@@ -86,4 +86,4 @@ public class JuegoActivity extends AppCompatActivity {
 
         super.onDestroy();
     }
-}
+}//  By: RETBOT
