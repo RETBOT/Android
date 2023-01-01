@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 import mx.edu.itl.c85360673.u9widgetsapp.R;
 
@@ -10,7 +10,7 @@ import android.widget.CheckedTextView;
 public class CheckedTextViewActivity extends AppCompatActivity {
 
     private CheckedTextView _chktxtvEjemplo;
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     @Override
@@ -34,7 +34,7 @@ public class CheckedTextViewActivity extends AppCompatActivity {
                     _chktxtvEjemplo.setCheckMarkDrawable ( android.R.drawable.btn_star );
                 }
             }
-        } );
+        } );//  By: RETBOT
     }
     //----------------------------------------------------------------------------------------------
 }
