@@ -18,7 +18,7 @@
 :*==========================================================================================
 :*
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 
 package mx.edu.itl.c19130519.u3imcidiomaapp;
 import androidx.appcompat.app.AppCompatActivity;
@@ -35,7 +35,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_layout);
-
+//  By: RETBOT
         // Hacer el cambio a MainAactivity despues de 2 seg
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -46,4 +46,4 @@ public class SplashActivity extends AppCompatActivity {
             }
         }, 2000);
     }
-}
+}//  By: RETBOT
