@@ -1,4 +1,4 @@
-package modelo;
+package modelo;//  By: RETBOT
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -27,13 +27,13 @@ public class SpinnerClubesAdapter extends ArrayAdapter<Club> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         return inicializarView ( position, convertView, parent );
-    }
+    }//  By: RETBOT
 
     @Override
     public View getDropDownView ( int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         return inicializarView ( position, convertView, parent );
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     // Metodo personalizado para inicializar la vista del elemento dado por el argumento position
 
@@ -52,7 +52,7 @@ public class SpinnerClubesAdapter extends ArrayAdapter<Club> {
         Club club = getItem(position);
         escudo.setImageResource(club.getEscudoID());
         nombre.setText(club.getNombre());
-
+//  By: RETBOT
         return convertView;
     }
 
