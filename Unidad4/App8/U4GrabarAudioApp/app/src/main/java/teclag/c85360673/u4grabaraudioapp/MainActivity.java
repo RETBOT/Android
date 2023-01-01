@@ -1,5 +1,5 @@
 package teclag.c85360673.u4grabaraudioapp;
-
+//  By: RETBOT
 
 import android.Manifest;
 import android.content.Intent;
@@ -23,7 +23,7 @@ import java.io.IOException;
 
 import mx.edu.itl.c19130519.androlib.util.permisos.ChecadorDePermisos;
 import mx.edu.itl.c19130519.androlib.util.permisos.PermisoApp;
-
+//  By: RETBOT
 public class MainActivity extends AppCompatActivity {
 
     private PermisoApp [] permisosReq = {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String fichero;
 
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnGrabarClick (View v ) {
         fichero = ruta + edtGuardarComo.getText().toString() + ".3gp";
-
+//  By: RETBOT
         mediaRecorder = new MediaRecorder();
         // Establecer el MICROFONO como fuente de audio
         mediaRecorder.setAudioSource( MediaRecorder.AudioSource.MIC );
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-
+//  By: RETBOT
 
     }
 
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
                     btnReproducir.setEnabled(true);
 
                     mediaPlayer.release();
-                }
+                }//  By: RETBOT
             });
             mediaPlayer.prepare();
         } catch(IOException ex){
@@ -156,4 +156,4 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
-}
+}//  By: RETBOT
