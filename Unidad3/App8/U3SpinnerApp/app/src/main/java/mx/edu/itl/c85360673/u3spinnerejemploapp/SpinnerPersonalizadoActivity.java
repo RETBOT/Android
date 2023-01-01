@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u3spinnerejemploapp;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 import modelo.Club;
 import modelo.SpinnerClubesAdapter;
@@ -12,7 +12,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class SpinnerPersonalizadoActivity extends AppCompatActivity {
-
+//  By: RETBOT
     private Spinner spnClubes;
     private ArrayList<Club> clubes;
 
@@ -36,7 +36,7 @@ public class SpinnerPersonalizadoActivity extends AppCompatActivity {
         // Establecer el adaptador para el spinner
 
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 
     private void inicializarClubes () {
@@ -65,4 +65,4 @@ public class SpinnerPersonalizadoActivity extends AppCompatActivity {
     }
 
     //----------------------------------------------------------------------------------------------
-}
+}//  By: RETBOT
