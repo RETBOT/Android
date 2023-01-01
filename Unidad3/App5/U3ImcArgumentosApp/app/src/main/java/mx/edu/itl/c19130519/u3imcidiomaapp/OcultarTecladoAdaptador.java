@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3imcidiomaapp;
-
+//  By: RETBOT
 import android.app.Activity;
 import android.content.Context;
 import android.view.View;
@@ -12,7 +12,7 @@ public class OcultarTecladoAdaptador implements View.OnClickListener{
     {
         this.activity = activity;
     }
-
+//  By: RETBOT
     @Override
     public void onClick(View view) {
         View vista = activity.getCurrentFocus();
@@ -23,4 +23,4 @@ public class OcultarTecladoAdaptador implements View.OnClickListener{
                     InputMethodManager.HIDE_NOT_ALWAYS );
         }
     }
-}
+}//  By: RETBOT
