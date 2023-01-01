@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3gridviewejemploapp;
-
+//  By: RETBOT
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,7 +18,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 
 import org.jetbrains.annotations.NotNull;
-
+//  By: RETBOT
 public class GridViewActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     final Integer [] escudos = { R.drawable.club_barcelona, R.drawable.club_bayern,
             R.drawable.club_chelsea, R.drawable.club_dinamokiev, R.drawable.club_zagreb,
@@ -45,7 +45,7 @@ public class GridViewActivity extends AppCompatActivity implements AdapterView.O
         // pasamos como argumento el otro acivity el ID del recurso drawable del escudo seleccionado
         intent.putExtra("escudo", escudos[i]);
         startActivity(intent);
-    }
+    }//  By: RETBOT
 
     public class GridAdaptador extends ArrayAdapter{
         private Integer [] escudos;
@@ -58,7 +58,7 @@ public class GridViewActivity extends AppCompatActivity implements AdapterView.O
             this.escudos = escudos;
             layoutResId = resource;
             inflater = LayoutInflater.from(context);
-        }
+        }//  By: RETBOT
 
         @NonNull
         @Override
@@ -70,6 +70,6 @@ public class GridViewActivity extends AppCompatActivity implements AdapterView.O
             imgEscudo.setScaleType(ImageView.ScaleType.FIT_XY);
             Glide.with(imgEscudo.getContext()).load(escudos[position]).into(imgEscudo);
             return convertView;
-        }
+        }//  By: RETBOT
     }
 }
