@@ -18,13 +18,13 @@
 :*==========================================================================================
 :*
 :*------------------------------------------------------------------------------------------*/
-
+//  By: RETBOT
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
 
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import mx.edu.itl.c85360673.u9widgetsapp.R;
@@ -32,7 +32,7 @@ import mx.edu.itl.c85360673.u9widgetsapp.R;
 public class WebViewActivity extends AppCompatActivity {
     // Variable creada para obtener el webView del activity_web_view
     private WebView webView;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,4 +45,4 @@ public class WebViewActivity extends AppCompatActivity {
         //Y se busca una url, en este caso Google
         webView.loadUrl("https://www.google.com");
     }
-}
+}//  By: RETBOT
