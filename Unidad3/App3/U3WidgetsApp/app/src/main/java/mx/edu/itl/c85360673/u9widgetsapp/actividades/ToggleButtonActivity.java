@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u9widgetsapp.actividades;
-
+//  By: RETBOT
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -13,7 +13,7 @@ public class ToggleButtonActivity extends AppCompatActivity {
 
     ToggleButton togButn;
     ImageView imgV;
-
+//  By: RETBOT
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +29,6 @@ public class ToggleButtonActivity extends AppCompatActivity {
             }else{
                 imgV.setImageResource(R.drawable.bloquear);
             }
-        }
+        }//  By: RETBOT
     }
 }
