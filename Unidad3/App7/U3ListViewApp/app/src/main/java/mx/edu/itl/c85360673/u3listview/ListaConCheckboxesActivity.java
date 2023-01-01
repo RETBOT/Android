@@ -1,5 +1,5 @@
 package mx.edu.itl.c85360673.u3listview;
-
+//  By: RETBOT
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -10,11 +10,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//  By: RETBOT
 import java.util.ArrayList;
 
 public class ListaConCheckboxesActivity extends AppCompatActivity {
-
+//  By: RETBOT
     private ListView lstvAnimales;
     private ArrayList<String> seleccionados;
 
@@ -35,7 +35,7 @@ public class ListaConCheckboxesActivity extends AppCompatActivity {
                 animales
                 );
         lstvAnimales.setAdapter ( adaptador );
-
+//  By: RETBOT
     }
 
     //----------------------------------------------------------------------------------------------
@@ -57,6 +57,6 @@ public class ListaConCheckboxesActivity extends AppCompatActivity {
         Toast.makeText(ListaConCheckboxesActivity.this, "Selección: "+seleccionados,Toast.LENGTH_SHORT).show();
     }
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
 }
