@@ -1,5 +1,5 @@
 package mx.edu.itl.c19130519.u3menusapp;
-
+//  By: RETBOT
 import android.content.Intent;
 import android.graphics.Color;
 
@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import mx.edu.itl.c19130519.util.OcultarTecladoAdaptador;
 
 public class MainActivity extends AppCompatActivity {
-
+//  By: RETBOT
     LinearLayout layout;
     EditText edtNombre;
 
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate ( R.menu.menu_main_activity, menu );
         return super.onCreateOptionsMenu(menu);
     }
-
+//  By: RETBOT
     // Manejamos las selecciones en el menu de la Actividad
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         // Hacer nada cuando se pulse el boton ATRAS del dispositivo
         Toast.makeText ( this, "Use la opcion Salir del menu", Toast.LENGTH_SHORT ).show ();
     }
-
+//  By: RETBOT
     //----------------------------------------------------------------------------------------------
     //      METODOS PARA INVOCAR LOS OTROS EJEMPLOS DE MENUS
 
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent ( this, EjemploMenuEnComunActivity.class );
         startActivity ( i );
     }
-
+//  By: RETBOT
     public void btnMenuContextualFlotante ( View v ) {
         Intent i = new Intent ( this, MenuContextualFlotanteActivity.class );
         startActivity ( i );
@@ -92,5 +92,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //----------------------------------------------------------------------------------------------
-
+//  By: RETBOT
 }
